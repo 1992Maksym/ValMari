@@ -5,6 +5,10 @@
 
 body {
   box-sizing: border-box;
+  color: #424242;
+}
+body header .mobile-header {
+  display: none;
 }
 body header .header-top {
   border-bottom: 1px solid #B7ECB1;
@@ -66,6 +70,80 @@ body header .menu {
 body header .menu a {
   color: #424242;
   text-decoration: none;
+}
+body .main-banner {
+  background: url(../images/banner/banner_fon.jpg);
+}
+body .main-banner .banner-wrap {
+  background: url(../images/banner/banner_nurses.png) right bottom;
+  background-repeat: no-repeat;
+  padding: 70px 0 138px 0;
+}
+body .main-banner .banner-wrap .banner-text .prescription {
+  font-size: 20px;
+  font-weight: 500;
+}
+body .main-banner .banner-wrap .banner-text .main-text {
+  font-size: 65px;
+  font-weight: 700;
+  max-width: 500px;
+  color: #55A630;
+  line-height: 65px;
+}
+body .main-banner .banner-wrap .banner-text .description {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 23px;
+  max-width: 420px;
+}
+body .main-banner .banner-wrap .banner-buttons {
+  margin-top: 57px;
+  display: flex;
+  justify-content: flex-start;
+}
+body .main-banner .banner-wrap .banner-buttons a {
+  text-decoration: none;
+}
+body .main-banner .banner-wrap .banner-buttons .register {
+  width: 285px;
+  height: 66px;
+  background-color: #55A630;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s linear;
+}
+body .main-banner .banner-wrap .banner-buttons .register:hover {
+  color: #55A630;
+  background-color: #fff;
+  border: 1px solid #55A630;
+  transition: 0.5s linear;
+}
+body .main-banner .banner-wrap .banner-buttons .learn-more {
+  width: 285px;
+  height: 66px;
+  background-color: #55A630;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s linear;
+  color: #55A630;
+  background-color: #fff;
+  margin-left: 20px;
+  border: 1px solid #55A630;
+}
+body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
+  width: 285px;
+  height: 66px;
+  background-color: #55A630;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s linear;
+  transition: 0.5s linear;
 }
 
 /*# sourceMappingURL=style.css.map */

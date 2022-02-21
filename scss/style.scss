@@ -1,5 +1,17 @@
 $light-green : #B7ECB1;
 $green : #55A630;
+$dark-grey : #424242;
+
+@mixin green-button{
+  width: 285px;
+  height: 66px;
+  background-color: $green;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s linear;
+}
 
 .container:before,
 .container:after{
@@ -9,8 +21,11 @@ $green : #55A630;
 
 body{
   box-sizing: border-box;
+  color: $dark-grey;
 
   header{
+    .mobile-header{display: none}
+
     .header-top{
       border-bottom: 1px solid $light-green;
 
@@ -76,5 +91,62 @@ body{
       }
     }
 
+  }
+
+  .main-banner{
+    background: url(../images/banner/banner_fon.jpg);
+    .banner-wrap{
+      background: url(../images/banner/banner_nurses.png) right bottom;
+      background-repeat: no-repeat;
+      padding: 70px 0 138px 0;
+
+      .banner-text{
+        .prescription{
+          font-size: 20px;
+          font-weight: 500;
+        }
+        .main-text{
+          font-size: 65px;
+          font-weight: 700;
+          max-width: 500px;
+          color: $green;
+          line-height: 65px;
+        }
+        .description{
+          margin-top: 20px;
+          font-size: 20px;
+          line-height: 23px;
+          max-width: 420px;
+        }
+      }
+      .banner-buttons{
+        margin-top: 57px;
+        display: flex;
+        justify-content: flex-start;
+
+        a{text-decoration: none}
+
+        .register{
+          @include green-button;
+        }
+        .register:hover{
+          color: $green;
+          background-color: #fff;
+          border: 1px solid $green;
+          transition: 0.5s linear;
+        }
+        .learn-more{
+          @include green-button;
+          color: $green;
+          background-color: #fff;
+          margin-left: 20px;
+          border: 1px solid $green;
+        }
+        .learn-more:hover{
+          @include green-button;
+          transition: 0.5s linear;
+        }
+      }
+    }
   }
 }
