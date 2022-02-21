@@ -1,0 +1,71 @@
+.container:before,
+.container:after {
+  content: none;
+}
+
+body {
+  box-sizing: border-box;
+}
+body header .header-top {
+  border-bottom: 1px solid #B7ECB1;
+}
+body header .header-top .container {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  align-items: center;
+}
+body header .header-top .container .header-info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+body header .header-top .container .header-info .telephone {
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+}
+body header .header-top .container .header-info .telephone:before {
+  content: "";
+  background-image: url("../images/header/header_tel.svg");
+  width: 28px;
+  height: 28px;
+  top: 4px;
+  left: -45px;
+  position: absolute;
+}
+body header .header-top .container .header-info .accounts {
+  display: flex;
+  margin: 0 66px 0 58px;
+}
+body header .header-top .container .header-info .accounts .facebook {
+  margin-right: 25px;
+}
+body header .header-top .container .header-info .languages {
+  position: relative;
+}
+body header .header-top .container .header-info .languages:after {
+  content: "";
+  width: 11px;
+  height: 7px;
+  top: 18px;
+  left: 50px;
+  position: absolute;
+  background: url(../images/header/arrow.svg);
+}
+body header .menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  height: 68px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+body header .menu a {
+  color: #424242;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

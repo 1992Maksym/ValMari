@@ -1,0 +1,80 @@
+$light-green : #B7ECB1;
+$green : #55A630;
+
+.container:before,
+.container:after{
+  content: none;
+}
+
+
+body{
+  box-sizing: border-box;
+
+  header{
+    .header-top{
+      border-bottom: 1px solid $light-green;
+
+      .container{
+        display: flex;
+        justify-content: space-between;
+        height: 85px;
+        align-items: center;
+
+        .header-logo{}
+        .header-info{
+          display: flex;
+          align-items: center;
+          margin-right: 20px;
+
+          .telephone{
+            position: relative;
+            font-size: 25px;
+            font-weight: 500;
+          }
+          .telephone:before{
+            content: "";
+            background-image: url("../images/header/header_tel.svg");
+            width: 28px;
+            height: 28px;
+            top: 4px;
+            left: -45px;
+            position: absolute;
+          }
+          .accounts{
+            display:flex;
+            margin: 0 66px 0 58px;
+
+            .facebook{margin-right: 25px}
+          }
+          .languages{position: relative;}
+          .languages:after{
+            content: '';
+            width: 11px;
+            height: 7px;
+            top: 18px;
+            left: 50px;
+            position: absolute;
+            background: url(../images/header/arrow.svg)
+          }
+        }
+      }
+    }
+
+    .menu{
+      list-style: none;
+      display: flex;
+      padding: 0;
+      justify-content: space-between;
+      height: 68px;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 500;
+
+      a{
+        color: #424242;
+        text-decoration: none;
+      }
+    }
+
+  }
+}
