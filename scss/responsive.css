@@ -3,6 +3,20 @@
     padding: 40px 0 97px 0;
     background-size: 530px 430px;
   }
+
+  body .courses-main-block .statistics-block {
+    padding: 40px;
+  }
+  body .courses-main-block .statistics-block .statistics-item {
+    max-width: 160px;
+  }
+  body .courses-main-block .statistics-block .statistics {
+    font-size: 40px;
+  }
+  body .courses-main-block .statistics-block .statistics-text {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 @media (max-width: 991px) {
   body header .mobile-header {
@@ -86,6 +100,23 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     width: 220px;
     height: 45px;
   }
+
+  body .courses-main-block .statistics-block {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  body .courses-main-block .statistics-block .statistics-item {
+    max-width: 120px;
+  }
+  body .courses-main-block .statistics-block .statistics {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  body .courses-main-block .statistics-block .statistics-text {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0;
+  }
 }
 @media (max-width: 768px) {
   body header .mobile-header {
@@ -109,6 +140,21 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     top: 4px;
     left: -25px;
     background: url(../images/header/header-tel-mobile.svg);
+  }
+
+  body .courses-main-block .statistics-block {
+    padding: 20px;
+    margin-top: -15px;
+  }
+  body .courses-main-block .statistics-block .statistics-item {
+    max-width: 70px;
+  }
+  body .courses-main-block .statistics-block .statistics {
+    font-size: 17px;
+  }
+  body .courses-main-block .statistics-block .statistics-text {
+    font-size: 10px;
+    line-height: 12px;
   }
 }
 @media (max-width: 630px) {
@@ -256,6 +302,27 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
 body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     width: 141px;
     height: 30px;
+  }
+
+  body .courses-main-block .statistics-block {
+    padding: 20px;
+    margin-top: -50px;
+    flex-direction: column;
+    width: 50%;
+    left: 25%;
+  }
+  body .courses-main-block .statistics-block .statistics-item {
+    flex-direction: row;
+    max-width: none;
+    justify-content: space-around;
+  }
+  body .courses-main-block .statistics-block .statistics {
+    font-size: 17px;
+  }
+  body .courses-main-block .statistics-block .statistics-text {
+    font-size: 10px;
+    line-height: 12px;
+    max-width: 65px;
   }
 }
 

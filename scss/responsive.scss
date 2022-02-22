@@ -6,6 +6,22 @@
     padding: 40px 0 97px 0;
     background-size: 530px 430px;
   }
+  body .courses-main-block{
+    .statistics-block{
+      padding: 40px;
+
+      .statistics-item{
+        max-width: 160px;
+      }
+      .statistics{
+        font-size: 40px;
+      }
+      .statistics-text{
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+  }
 }
 @media(max-width:991px){
   body header{
@@ -30,6 +46,7 @@
         position: absolute;
       }
     }
+
     .header-desktop{
       display: none;
     }
@@ -80,6 +97,26 @@
       }
     }
   }
+
+  body .courses-main-block{
+    .statistics-block{
+      padding: 20px;
+      margin-top: 30px;
+
+      .statistics-item{
+        max-width: 120px;
+      }
+      .statistics{
+        font-size: 25px;
+        line-height: 45px;
+      }
+      .statistics-text{
+        font-size: 13px;
+        line-height: 15px;
+        margin: 0;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -103,6 +140,25 @@
       top: 4px;
       left: -25px;
       background: url(../images/header/header-tel-mobile.svg)
+    }
+  }
+
+
+  body .courses-main-block{
+    .statistics-block{
+      padding: 20px;
+      margin-top: -15px;
+
+      .statistics-item{
+        max-width: 70px;
+      }
+      .statistics{
+        font-size: 17px;
+      }
+      .statistics-text{
+        font-size: 10px;
+        line-height: 12px;
+      }
     }
   }
 }
@@ -226,6 +282,31 @@
       .learn-more:hover{
         width: 141px;
         height: 30px;
+      }
+    }
+  }
+
+  body .courses-main-block{
+    .statistics-block{
+      padding: 20px;
+      margin-top: -50px;
+      flex-direction: column;
+      width: 50%;
+      left: 25%;
+
+      .statistics-item{
+        flex-direction: row;
+        max-width: none;
+        justify-content: space-around;
+
+      }
+      .statistics{
+        font-size: 17px;
+      }
+      .statistics-text{
+        font-size: 10px;
+        line-height: 12px;
+        max-width:65px;
       }
     }
   }

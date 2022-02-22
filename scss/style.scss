@@ -1,4 +1,5 @@
 @import 'mixins.scss';
+@import 'node_modules/swiper/swiper-bundle.min.css';
 
 .container:before,
 .container:after{
@@ -132,6 +133,60 @@ body{
         .learn-more:hover{
           @include green-button;
           transition: 0.5s linear;
+        }
+      }
+    }
+  }
+
+  .courses-main-block{
+    position: relative;
+    background: url(../images/courses/matrix-web.png) top right no-repeat;
+    .statistics-block{
+      position: absolute;
+      background-color: #fff;
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      left: 10%;
+      box-shadow: 0px 13px 19px rgb(0 0 0 / 15%);
+      margin: -25px auto 0;
+      z-index: 2;
+
+      .statistics-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 200px;
+        text-align: center;
+      }
+      .statistics{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 32px;
+        color: $green;
+      }
+      .statistics-text{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-top: 15px
+      }
+    }
+    .courses-block{
+      padding-top: 360px;
+
+      .courses-title{
+        text-align: center;
+        font-size: 35px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-bottom: 75px;
+      }
+      .courses-slider-container{
+        .courses-item{
+          background-color: #fff;
+          width: max-content;
         }
       }
     }
