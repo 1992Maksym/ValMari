@@ -1,3 +1,9 @@
+@media (max-width: 1200px) {
+  body .main-banner .banner-wrap {
+    padding: 40px 0 97px 0;
+    background-size: 530px 430px;
+  }
+}
 @media (max-width: 991px) {
   body header .mobile-header {
     display: flex;
@@ -21,6 +27,64 @@
   }
   body header .header-desktop {
     display: none;
+  }
+
+  body .main-banner .banner-wrap {
+    padding: 30px 15px;
+    background-size: 355px 290px;
+  }
+  body .main-banner .banner-wrap .banner-text .prescription {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  body .main-banner .banner-wrap .banner-text .main-text {
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 320px;
+    line-height: 40px;
+  }
+  body .main-banner .banner-wrap .banner-text .description {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 15px;
+    max-width: 295px;
+  }
+  body .main-banner .banner-wrap .banner-buttons {
+    margin-top: 20px;
+    display: block;
+  }
+  body .main-banner .banner-wrap .banner-buttons .register {
+    width: 285px;
+    height: 66px;
+    background-color: #55A630;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+    width: 220px;
+    height: 45px;
+  }
+  body .main-banner .banner-wrap .banner-buttons .learn-more {
+    width: 285px;
+    height: 66px;
+    background-color: #55A630;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+    width: 220px;
+    height: 45px;
+    color: #55A630;
+    background-color: #fff;
+    margin: 20px 0 0 0;
+    border: 1px solid #55A630;
+  }
+  body .main-banner .banner-wrap .banner-buttons .register:hover,
+body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
+    width: 220px;
+    height: 45px;
   }
 }
 @media (max-width: 768px) {
@@ -47,6 +111,66 @@
     background: url(../images/header/header-tel-mobile.svg);
   }
 }
+@media (max-width: 630px) {
+  body .main-banner .banner-wrap {
+    padding: 20px 15px 33px 15px;
+    background-size: 226px 192px;
+  }
+  body .main-banner .banner-wrap .banner-text .prescription {
+    font-size: 8px;
+    font-weight: 500;
+  }
+  body .main-banner .banner-wrap .banner-text .main-text {
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 190px;
+    line-height: 25px;
+  }
+  body .main-banner .banner-wrap .banner-text .description {
+    margin-top: 15px;
+    font-size: 8px;
+    line-height: 10px;
+    max-width: 170px;
+  }
+  body .main-banner .banner-wrap .banner-buttons {
+    margin-top: 15px;
+  }
+  body .main-banner .banner-wrap .banner-buttons .register {
+    width: 285px;
+    height: 66px;
+    background-color: #55A630;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+    width: 141px;
+    height: 30px;
+    font-size: 8px;
+  }
+  body .main-banner .banner-wrap .banner-buttons .learn-more {
+    width: 285px;
+    height: 66px;
+    background-color: #55A630;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+    width: 141px;
+    height: 30px;
+    color: #55A630;
+    background-color: #fff;
+    margin: 20px 0 0 0;
+    border: 1px solid #55A630;
+    font-size: 8px;
+  }
+  body .main-banner .banner-wrap .banner-buttons .register:hover,
+body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
+    width: 141px;
+    height: 30px;
+  }
+}
 @media (max-width: 480px) {
   body header .mobile-header {
     height: 60px;
@@ -61,6 +185,77 @@
   }
   body header .mobile-header .tel {
     display: none;
+  }
+
+  body .main-banner .banner-wrap {
+    padding: 12px 15px 188px 15px;
+    background-size: 231px 196px;
+    background-position: center bottom;
+  }
+  body .main-banner .banner-wrap .banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  body .main-banner .banner-wrap .banner-text .prescription {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  body .main-banner .banner-wrap .banner-text .main-text {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 190px;
+    line-height: 28px;
+  }
+  body .main-banner .banner-wrap .banner-text .description {
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 12px;
+    max-width: 240px;
+  }
+  body .main-banner .banner-wrap .banner-buttons {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main-banner .banner-wrap .banner-buttons .register {
+    width: 285px;
+    height: 66px;
+    background-color: #55A630;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+    width: 141px;
+    height: 30px;
+    font-size: 10px;
+  }
+  body .main-banner .banner-wrap .banner-buttons .learn-more {
+    width: 285px;
+    height: 66px;
+    background-color: #55A630;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+    width: 141px;
+    height: 30px;
+    color: #55A630;
+    background-color: #fff;
+    margin: 8px 0 0 0;
+    border: 1px solid #55A630;
+    font-size: 10px;
+  }
+  body .main-banner .banner-wrap .banner-buttons .register:hover,
+body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
+    width: 141px;
+    height: 30px;
   }
 }
 

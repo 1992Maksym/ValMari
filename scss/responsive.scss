@@ -1,3 +1,12 @@
+//@import 'swiper/css/bundle';
+@import 'mixins.scss';
+
+@media(max-width: 1200px){
+  body .main-banner .banner-wrap{
+    padding: 40px 0 97px 0;
+    background-size: 530px 430px;
+  }
+}
 @media(max-width:991px){
   body header{
     .mobile-header{
@@ -23,6 +32,52 @@
     }
     .header-desktop{
       display: none;
+    }
+  }
+
+  body .main-banner .banner-wrap{
+    padding: 30px 15px;
+    background-size: 355px 290px;
+
+    .banner-text .prescription{
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .banner-text .main-text{
+      font-size: 40px;
+      font-weight: 700;
+      max-width: 320px;
+      line-height: 40px;
+    }
+    .banner-text .description{
+      margin-top: 5px;
+      font-size: 14px;
+      line-height: 15px;
+      max-width: 295px;
+    }
+    .banner-buttons{
+      margin-top: 20px;
+      display: block;
+
+      .register{
+        @include green-button;
+        width: 220px;
+        height: 45px;
+      }
+      .learn-more{
+        @include green-button;
+        width: 220px;
+        height: 45px;
+        color: $green;
+        background-color: #fff;
+        margin: 20px 0 0 0;
+        border: 1px solid $green;
+      }
+      .register:hover,
+      .learn-more:hover{
+        width: 220px;
+        height: 45px;
+      }
     }
   }
 }
@@ -51,7 +106,54 @@
     }
   }
 }
+@media(max-width: 630px){
+  body .main-banner .banner-wrap{
+    padding: 20px 15px 33px 15px;
+    background-size: 226px 192px;
 
+    .banner-text .prescription{
+      font-size: 8px;
+      font-weight: 500;
+    }
+    .banner-text .main-text{
+      font-size: 24px;
+      font-weight: 700;
+      max-width: 190px;
+      line-height: 25px;
+    }
+    .banner-text .description{
+      margin-top: 15px;
+      font-size: 8px;
+      line-height: 10px;
+      max-width: 170px;
+    }
+    .banner-buttons{
+      margin-top: 15px;
+
+      .register{
+        @include green-button;
+        width: 141px;
+        height: 30px;
+        font-size: 8px;
+      }
+      .learn-more{
+        @include green-button;
+        width: 141px;
+        height: 30px;
+        color: $green;
+        background-color: #fff;
+        margin: 20px 0 0 0;
+        border: 1px solid $green;
+        font-size: 8px;
+      }
+      .register:hover,
+      .learn-more:hover{
+        width: 141px;
+        height: 30px;
+      }
+    }
+  }
+}
 @media (max-width: 480px) {
   body header .mobile-header{
     height: 60px;
@@ -65,6 +167,66 @@
     }
     .tel{
       display: none;
+    }
+  }
+
+  body .main-banner .banner-wrap{
+    padding: 12px 15px 188px 15px;
+    background-size: 231px 196px;
+    background-position: center bottom;
+
+    .banner-text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .banner-text .prescription{
+      font-size: 10px;
+      font-weight: 500;
+    }
+    .banner-text .main-text{
+      display: flex;
+      font-size: 30px;
+      font-weight: 700;
+      max-width: 190px;
+      line-height: 28px;
+    }
+    .banner-text .description{
+      margin-top: 15px;
+      font-size: 10px;
+      line-height: 12px;
+      max-width: 240px;
+    }
+    .banner-buttons{
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .register{
+        @include green-button;
+        width: 141px;
+        height: 30px;
+        font-size: 10px;
+      }
+      .learn-more{
+        @include green-button;
+        width: 141px;
+        height: 30px;
+        color: $green;
+        background-color: #fff;
+        margin: 8px 0 0 0;
+        border: 1px solid $green;
+        font-size: 10px;
+      }
+      .register:hover,
+      .learn-more:hover{
+        width: 141px;
+        height: 30px;
+      }
     }
   }
 }

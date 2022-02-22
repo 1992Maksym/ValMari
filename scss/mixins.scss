@@ -1,0 +1,14 @@
+$light-green : #B7ECB1;
+$green : #55A630;
+$dark-grey : #424242;
+
+@mixin green-button{
+  width: 285px;
+  height: 66px;
+  background-color: $green;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s linear;
+}
