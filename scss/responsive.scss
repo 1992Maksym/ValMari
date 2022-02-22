@@ -7,6 +7,8 @@
     background-size: 530px 430px;
   }
   body .courses-main-block{
+    background-size: 745px;
+
     .statistics-block{
       padding: 40px;
 
@@ -21,7 +23,22 @@
         line-height: 20px;
       }
     }
+
+    .courses-block{
+      padding-top: 290px;
+
+      .courses-title{
+
+      }
+      .courses-slider-container{
+        .courses-item{
+
+        }
+      }
+    }
   }
+
+
 }
 @media(max-width:991px){
   body header{
@@ -99,6 +116,8 @@
   }
 
   body .courses-main-block{
+    background-size: 535px;
+
     .statistics-block{
       padding: 20px;
       margin-top: 30px;
@@ -114,6 +133,19 @@
         font-size: 13px;
         line-height: 15px;
         margin: 0;
+      }
+    }
+
+    .courses-block{
+      padding-top: 250px;
+
+      .courses-title{
+
+      }
+      .courses-slider-container{
+        .courses-item{
+
+        }
       }
     }
   }
@@ -145,6 +177,8 @@
 
 
   body .courses-main-block{
+    background-size: 350px;
+
     .statistics-block{
       padding: 20px;
       margin-top: -15px;
@@ -158,6 +192,19 @@
       .statistics-text{
         font-size: 10px;
         line-height: 12px;
+      }
+    }
+
+    .courses-block{
+      padding-top: 160px;
+
+      .courses-title{
+
+      }
+      .courses-slider-container{
+        .courses-item{
+
+        }
       }
     }
   }
@@ -287,6 +334,8 @@
   }
 
   body .courses-main-block{
+    background: none;
+
     .statistics-block{
       padding: 20px;
       margin-top: -50px;
@@ -307,6 +356,19 @@
         font-size: 10px;
         line-height: 12px;
         max-width:65px;
+      }
+    }
+
+    .courses-block{
+      padding-top: 220px;
+
+      .courses-title{
+
+      }
+      .courses-slider-container{
+        .courses-item{
+
+        }
       }
     }
   }

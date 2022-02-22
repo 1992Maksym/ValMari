@@ -4,6 +4,9 @@
     background-size: 530px 430px;
   }
 
+  body .courses-main-block {
+    background-size: 745px;
+  }
   body .courses-main-block .statistics-block {
     padding: 40px;
   }
@@ -16,6 +19,9 @@
   body .courses-main-block .statistics-block .statistics-text {
     font-size: 20px;
     line-height: 20px;
+  }
+  body .courses-main-block .courses-block {
+    padding-top: 290px;
   }
 }
 @media (max-width: 991px) {
@@ -101,6 +107,9 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     height: 45px;
   }
 
+  body .courses-main-block {
+    background-size: 535px;
+  }
   body .courses-main-block .statistics-block {
     padding: 20px;
     margin-top: 30px;
@@ -116,6 +125,9 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     font-size: 13px;
     line-height: 15px;
     margin: 0;
+  }
+  body .courses-main-block .courses-block {
+    padding-top: 250px;
   }
 }
 @media (max-width: 768px) {
@@ -142,6 +154,9 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     background: url(../images/header/header-tel-mobile.svg);
   }
 
+  body .courses-main-block {
+    background-size: 350px;
+  }
   body .courses-main-block .statistics-block {
     padding: 20px;
     margin-top: -15px;
@@ -155,6 +170,9 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   body .courses-main-block .statistics-block .statistics-text {
     font-size: 10px;
     line-height: 12px;
+  }
+  body .courses-main-block .courses-block {
+    padding-top: 160px;
   }
 }
 @media (max-width: 630px) {
@@ -304,6 +322,9 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     height: 30px;
   }
 
+  body .courses-main-block {
+    background: none;
+  }
   body .courses-main-block .statistics-block {
     padding: 20px;
     margin-top: -50px;
@@ -323,6 +344,9 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     font-size: 10px;
     line-height: 12px;
     max-width: 65px;
+  }
+  body .courses-main-block .courses-block {
+    padding-top: 220px;
   }
 }
 
