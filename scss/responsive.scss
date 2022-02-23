@@ -15,7 +15,7 @@
       .statistics-item{
         max-width: 160px;
       }
-      .statistics{
+      .statistics-count{
         font-size: 40px;
       }
       .statistics-text{
@@ -37,8 +37,6 @@
       }
     }
   }
-
-
 }
 @media(max-width:991px){
   body header{
@@ -125,7 +123,7 @@
       .statistics-item{
         max-width: 120px;
       }
-      .statistics{
+      .statistics-count{
         font-size: 25px;
         line-height: 45px;
       }
@@ -186,7 +184,7 @@
       .statistics-item{
         max-width: 70px;
       }
-      .statistics{
+      .statistics-count{
         font-size: 17px;
       }
       .statistics-text{
@@ -349,7 +347,7 @@
         justify-content: space-around;
 
       }
-      .statistics{
+      .statistics-count{
         font-size: 17px;
       }
       .statistics-text{

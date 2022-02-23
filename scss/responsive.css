@@ -13,7 +13,7 @@
   body .courses-main-block .statistics-block .statistics-item {
     max-width: 160px;
   }
-  body .courses-main-block .statistics-block .statistics {
+  body .courses-main-block .statistics-block .statistics-count {
     font-size: 40px;
   }
   body .courses-main-block .statistics-block .statistics-text {
@@ -117,7 +117,7 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   body .courses-main-block .statistics-block .statistics-item {
     max-width: 120px;
   }
-  body .courses-main-block .statistics-block .statistics {
+  body .courses-main-block .statistics-block .statistics-count {
     font-size: 25px;
     line-height: 45px;
   }
@@ -164,7 +164,7 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   body .courses-main-block .statistics-block .statistics-item {
     max-width: 70px;
   }
-  body .courses-main-block .statistics-block .statistics {
+  body .courses-main-block .statistics-block .statistics-count {
     font-size: 17px;
   }
   body .courses-main-block .statistics-block .statistics-text {
@@ -337,7 +337,7 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
     max-width: none;
     justify-content: space-around;
   }
-  body .courses-main-block .statistics-block .statistics {
+  body .courses-main-block .statistics-block .statistics-count {
     font-size: 17px;
   }
   body .courses-main-block .statistics-block .statistics-text {

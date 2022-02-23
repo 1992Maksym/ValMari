@@ -168,7 +168,7 @@ body .courses-main-block .statistics-block .statistics-item {
   max-width: 200px;
   text-align: center;
 }
-body .courses-main-block .statistics-block .statistics {
+body .courses-main-block .statistics-block .statistics-count {
   font-size: 45px;
   font-weight: 700;
   line-height: 32px;
@@ -192,7 +192,14 @@ body .courses-main-block .courses-block .courses-title {
 }
 body .courses-main-block .courses-block .courses-slider-container .courses-item {
   background-color: #fff;
-  width: max-content;
+  max-width: 360px;
+}
+body .courses-main-block .courses-block .courses-slider-container .courses-item .course-item-wrap {
+  padding: 16px 16px 20px 16px;
+}
+body .courses-main-block .courses-block .courses-slider-container .courses-item .course-buttons .course-btn {
+  width: 100%;
+  height: 56px;
 }
 
 /*# sourceMappingURL=style.css.map */
