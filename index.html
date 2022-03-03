@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css">
+<!--    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>-->
+
+
     <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="scss/responsive.css">
     <title>Document</title>
+
 </head>
 <body>
     <header>
@@ -96,198 +100,232 @@
                 </div>
             </div>
         </section>
-        <section class="courses-main-block">
-            <div class="statistics-block">
-                <div class="sertificates statistics-item">
-                    <div class="statistics-count">4000+</div>
-                    <div class="statistics-text">Сертификатов мы выдали</div>
+        <section class="courses-main-block ">
+            <div class="container">
+                <div class="statistics-block">
+                    <div class="sertificates statistics-item">
+                        <div class="statistics-count">4000+</div>
+                        <div class="statistics-text">Сертификатов мы выдали</div>
+                    </div>
+                    <div class="models statistics-item">
+                        <div class="statistics-count">3500+</div>
+                        <div class="statistics-text">Моделей в нашей базе</div>
+                    </div>
+                    <div class="specialists statistics-item">
+                        <div class="statistics-count">1500+</div>
+                        <div class="statistics-text">Специалистов мы обучили</div>
+                    </div>
+                    <div class="happy-clients statistics-item">
+                        <div class="statistics-count">5500+</div>
+                        <div class="statistics-text">Довольных клиентов</div>
+                    </div>
                 </div>
-                <div class="models statistics-item">
-                    <div class="statistics-count">3500+</div>
-                    <div class="statistics-text">Моделей в нашей базе</div>
-                </div>
-                <div class="specialists statistics-item">
-                    <div class="statistics-count">1500+</div>
-                    <div class="statistics-text">Специалистов мы обучили</div>
-                </div>
-                <div class="happy-clients statistics-item">
-                    <div class="statistics-count">5500+</div>
-                    <div class="statistics-text">Довольных клиентов</div>
-                </div>
-            </div>
 
-            <div class="courses-block">
-                <div class="courses-title">Курсы обучения</div>
-                <div class="courses-slider-container swiper">
-                    <div class="courses-wrap swiper-wrapper">
+                <div class="courses-block">
+                    <div class="courses-title">Курсы обучения</div>
+                    <div class="courses-slider-container swiper">
+                        <div class="courses-wrap swiper-wrapper">
 
-                        <div class="courses-item swiper-slide">
-                            <div class="course-item-wrap">
-                                <div class="about-course">
-                                    <div class="course-prescription">Курс для медиков</div>
-                                    <div class="course-logo">
-                                        <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
-                                        </svg>
+                            <div class="courses-item swiper-slide">
+                                <div class="course-item-wrap">
+                                    <div class="about-course">
+                                        <div class="course-prescription">Курс для медиков</div>
+                                        <div class="course-logo">
+                                            <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
+                                            </svg>
+                                        </div>
                                     </div>
+                                    <div class="course-description course-description-offline">Канюльные техники</div>
+                                    <div class="course-type course-type-offline">Оффлайн</div>
+                                    <div class="course-date">1 - 4 мая</div>
+                                    <div class="course-small-discription">
+                                        <div class="small-description-wrap">
+                                            <div class="small-discription small-discription-offline">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
+                                        </div>
+                                        <div class="small-discription-image">
+                                            <img src="images/courses/layout.png">
+                                        </div>
+                                    </div>
+                                    <div class="course-free-places">Свободно 2 из 15 мест</div>
                                 </div>
-                                <div class="course-description course-description-offline">Канюльные техники</div>
-                                <div class="course-type course-type-offline">Оффлайн</div>
-                                <div class="course-date">1 - 4 мая</div>
-                                <div class="course-small-discription">
-                                    <div class="small-description-wrap">
-                                        <div class="small-discription small-discription-offline">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
-                                    </div>
-                                    <div class="small-discription-image">
-                                        <img src="images/courses/layout.png">
-                                    </div>
+                                <div class="course-buttons">
+                                    <a href="#" class="course-register">
+                                        <div class="register-block offline-btn course-btn">Зарегистрироваться</div>
+                                    </a>
+                                    <a href="#" class="course-details">
+                                        <div class="details-block offline-btn course-btn">Подробнее</div>
+                                    </a>
                                 </div>
-                                <div class="course-free-places">Свободно 2 из 15 мест</div>
                             </div>
-                            <div class="course-buttons">
-                                <a href="#" class="course-register">
-                                    <div class="register-block offline-btn course-btn">Зарегистрироваться</div>
-                                </a>
-                                <a href="#" class="course-details">
-                                    <div class="details-block offline-btn course-btn">Подробнее</div>
-                                </a>
+
+                            <div class="courses-item swiper-slide">
+                                <div class="course-item-wrap">
+                                    <div class="about-course">
+                                        <div class="course-prescription">Курс для медиков</div>
+                                        <div class="course-logo">
+                                            <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="course-description course-description-online">Мезотерапия и биоревителизация</div>
+                                    <div class="course-type course-type-online">Онлайн</div>
+                                    <div class="course-date">15 - 20 мая</div>
+                                    <div class="course-small-discription">
+                                        <div class="small-description-wrap">
+                                            <div class="small-discription small-discription-online">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
+                                        </div>
+                                        <div class="small-discription-image">
+                                            <img src="images/courses/layout.png">
+                                        </div>
+                                    </div>
+                                    <div class="course-free-places">Свободно 2 из 15 мест</div>
+                                </div>
+                                <div class="course-buttons">
+                                    <a href="#" class="course-register">
+                                        <div class="register-block online-btn course-btn">Зарегистрироваться</div>
+                                    </a>
+                                    <a href="#" class="course-details">
+                                        <div class="details-block online-btn course-btn">Подробнее</div>
+                                    </a>
+                                </div>
                             </div>
+
+                            <div class="courses-item swiper-slide">
+                                <div class="course-item-wrap">
+                                    <div class="about-course">
+                                        <div class="course-prescription course-prescription-master">Курс для медиков</div>
+                                        <div class="course-logo">
+                                            <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="course-description course-description-master">Биогель - новое в косметологии</div>
+                                    <div class="course-type course-type-master">Мастер-класс</div>
+                                    <div class="course-date">2 - 5 августа</div>
+                                    <div class="course-small-discription">
+                                        <div class="small-description-wrap">
+                                            <div class="small-discription small-discription-master">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
+                                        </div>
+                                        <div class="small-discription-image">
+                                            <img src="images/courses/layout_2.png">
+                                        </div>
+                                    </div>
+                                    <div class="course-free-places">Свободно 2 из 15 мест</div>
+                                </div>
+                                <div class="course-buttons">
+                                    <a href="#" class="course-register">
+                                        <div class="register-block master-btn course-btn">Зарегистрироваться</div>
+                                    </a>
+                                    <a href="#" class="course-details">
+                                        <div class="details-block master-btn course-btn"><span>Подробнее</span></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- <div class="courses-item swiper-slide">
+                                <div class="course-item-wrap">
+                                    <div class="about-course">
+                                        <div class="course-prescription">Курс для медиков</div>
+                                        <div class="course-logo">
+                                            <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="course-description course-description-offline">Канюльные техники</div>
+                                    <div class="course-type course-type-offline">Оффлайн</div>
+                                    <div class="course-date">1 - 4 мая</div>
+                                    <div class="course-small-discription">
+                                        <div class="small-description-wrap">
+                                            <div class="small-discription small-discription-offline">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
+                                        </div>
+                                        <div class="small-discription-image">
+                                            <img src="images/courses/layout_2.png">
+                                        </div>
+                                    </div>
+                                    <div class="course-free-places">Свободно 2 из 15 мест</div>
+                                </div>
+                                <div class="course-buttons">
+                                    <a href="#" class="course-register">
+                                        <div class="register-block offline-btn course-btn">Зарегистрироваться</div>
+                                    </a>
+                                    <a href="#" class="course-details">
+                                        <div class="details-block offline-btn course-btn">Подробнее</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="courses-item swiper-slide">
+                                <div class="course-item-wrap">
+                                    <div class="about-course">
+                                        <div class="course-prescription">Курс для медиков</div>
+                                        <div class="course-logo">
+                                            <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="course-description course-description-offline">Мезотерапия и биоревителизация</div>
+                                    <div class="course-type course-type-offline">Оффлайн</div>
+                                    <div class="course-date">15 - 20 мая</div>
+                                    <div class="course-small-discription">
+                                        <div class="small-description-wrap">
+                                            <div class="small-discription small-discription-offline">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
+                                        </div>
+                                        <div class="small-discription-image">
+                                            <img src="images/courses/layout.png">
+                                        </div>
+                                    </div>
+                                    <div class="course-free-places">Свободно 2 из 15 мест</div>
+                                </div>
+                                <div class="course-buttons">
+                                    <a href="#" class="course-register">
+                                        <div class="register-block offline-btn course-btn">Зарегистрироваться</div>
+                                    </a>
+                                    <a href="#" class="course-details">
+                                        <div class="details-block offline-btn course-btn">Подробнее</div>
+                                    </a>
+                                </div>
+                            </div> -->
+
                         </div>
 
-                        <div class="courses-item swiper-slide">
-                            <div class="course-item-wrap">
-                                <div class="about-course">
-                                    <div class="course-prescription">Курс для медиков</div>
-                                    <div class="course-logo">
-                                        <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="course-description course-description-online">Мезотерапия и биоревителизация</div>
-                                <div class="course-type course-type-online">Онлайн</div>
-                                <div class="course-date">15 - 20 мая</div>
-                                <div class="course-small-discription">
-                                    <div class="small-description-wrap">
-                                        <div class="small-discription small-discription-online">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
-                                    </div>
-                                    <div class="small-discription-image">
-                                        <img src="images/courses/layout.png">
-                                    </div>
-                                </div>
-                                <div class="course-free-places">Свободно 2 из 15 мест</div>
-                            </div>
-                            <div class="course-buttons">
-                                <a href="#" class="course-register">
-                                    <div class="register-block online-btn course-btn">Зарегистрироваться</div>
-                                </a>
-                                <a href="#" class="course-details">
-                                    <div class="details-block online-btn course-btn">Подробнее</div>
-                                </a>
-                            </div>
-                        </div>
+                        <!-- pagination -->
+                        <div class="swiper-pagination"></div>
 
-                        <div class="courses-item swiper-slide">
-                            <div class="course-item-wrap">
-                                <div class="about-course">
-                                    <div class="course-prescription course-prescription-master">Курс для медиков</div>
-                                    <div class="course-logo">
-                                        <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="course-description course-description-master">Биогель - новое в косметологии</div>
-                                <div class="course-type course-type-master">Мастер-класс</div>
-                                <div class="course-date">2 - 5 августа</div>
-                                <div class="course-small-discription">
-                                    <div class="small-description-wrap">
-                                        <div class="small-discription small-discription-master">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
-                                    </div>
-                                    <div class="small-discription-image">
-                                        <img src="images/courses/layout_2.png">
-                                    </div>
-                                </div>
-                                <div class="course-free-places">Свободно 2 из 15 мест</div>
-                            </div>
-                            <div class="course-buttons">
-                                <a href="#" class="course-register">
-                                    <div class="register-block master-btn course-btn">Зарегистрироваться</div>
-                                </a>
-                                <a href="#" class="course-details">
-                                    <div class="details-block master-btn course-btn"><span>Подробнее</span></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- <div class="courses-item swiper-slide">
-                            <div class="course-item-wrap">
-                                <div class="about-course">
-                                    <div class="course-prescription">Курс для медиков</div>
-                                    <div class="course-logo">
-                                        <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="course-description course-description-offline">Канюльные техники</div>
-                                <div class="course-type course-type-offline">Оффлайн</div>
-                                <div class="course-date">1 - 4 мая</div>
-                                <div class="course-small-discription">
-                                    <div class="small-description-wrap">
-                                        <div class="small-discription small-discription-offline">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
-                                    </div>
-                                    <div class="small-discription-image">
-                                        <img src="images/courses/layout_2.png">
-                                    </div>
-                                </div>
-                                <div class="course-free-places">Свободно 2 из 15 мест</div>
-                            </div>
-                            <div class="course-buttons">
-                                <a href="#" class="course-register">
-                                    <div class="register-block offline-btn course-btn">Зарегистрироваться</div>
-                                </a>
-                                <a href="#" class="course-details">
-                                    <div class="details-block offline-btn course-btn">Подробнее</div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="courses-item swiper-slide">
-                            <div class="course-item-wrap">
-                                <div class="about-course">
-                                    <div class="course-prescription">Курс для медиков</div>
-                                    <div class="course-logo">
-                                        <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5769 5.22892L0 2.24096L10.5769 2.98795L16.5 1.49398L22.4231 5.9759L27.0769 3.36145L32.1538 3.73494L41.0385 0L39.7692 3.73494H44L27.9231 13.8193L28.7692 19.4217L34.6923 26.8916L29.6154 25.0241L31.3077 31L16.0769 9.71084V7.46988L10.5769 5.22892Z" fill="#55A630"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="course-description course-description-offline">Мезотерапия и биоревителизация</div>
-                                <div class="course-type course-type-offline">Оффлайн</div>
-                                <div class="course-date">15 - 20 мая</div>
-                                <div class="course-small-discription">
-                                    <div class="small-description-wrap">
-                                        <div class="small-discription small-discription-offline">Краткое описание. Что-то о курсе.Пару фактов.Краткое описание</div>
-                                    </div>
-                                    <div class="small-discription-image">
-                                        <img src="images/courses/layout.png">
-                                    </div>
-                                </div>
-                                <div class="course-free-places">Свободно 2 из 15 мест</div>
-                            </div>
-                            <div class="course-buttons">
-                                <a href="#" class="course-register">
-                                    <div class="register-block offline-btn course-btn">Зарегистрироваться</div>
-                                </a>
-                                <a href="#" class="course-details">
-                                    <div class="details-block offline-btn course-btn">Подробнее</div>
-                                </a>
-                            </div>
-                        </div> -->
+                        <!-- navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
 
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="bout-us container">
+            <div class="about-us-more-mobile">
+                <span>Читать подробнее</span>
+                <div class="about-us-arrow">
+                    <svg width="36" height="8" viewBox="0 0 36 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M35.3536 4.35355C35.5488 4.15829 35.5488 3.84171 35.3536 3.64645L32.1716 0.464466C31.9763 0.269204 31.6597 0.269204 31.4645 0.464466C31.2692 0.659728 31.2692 0.976311 31.4645 1.17157L34.2929 4L31.4645 6.82843C31.2692 7.02369 31.2692 7.34027 31.4645 7.53553C31.6597 7.7308 31.9763 7.7308 32.1716 7.53553L35.3536 4.35355ZM0 4.5H35V3.5H0L0 4.5Z" fill="#55A630"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="about-us-img"><img src="./images/about_us.jpg" alt=""></div>
+            <div class="about-us-description-wrap">
+                <div class="about-us-title">О нас</div>
+                <div class="about-us-main-prescription">
+                    <span class="about-us-main-title">VALMARI</span>
+                    <span class="about-us-main-text">ВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ </span>
+                </div>
+                <div class="about-us-main-description">
+                    <span>Описание может быть любое.</span>
+                    <span class="about-us-main-description-text">Ведущий учебный центр эстетической косметологии.</span>
+                    <span> Более 5 лет мы проводим курсы сертифицированные курсы профессионального образования в области косметологии и индустрии красоты, здоровья и молодости</span>
+                </div>
+                <div class="about-us-main-more">Подробнее</div>
             </div>
         </section>
         
@@ -295,8 +333,58 @@
 
 
 <!--    <script src="./node_modules/jquery/dist/jquery.min.js"></script>-->
-<script src="js/main.js"></script>
-<script src="./node_modules/swiper/"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!--    <script src="node_modules/swiper/swiper-bundle.min.js"></script>-->
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+        new Swiper('.swiper',{
+            // Optional parameters
+    speed: 400,
+    // direction: 'vertical',
+    loop: true,
+    // slidesPerView: 1,
+    spaceBetween: 50,
+    // Responsive breakpoints
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        // when window width is >= 480px
+        // 480: {
+        //     slidesPerView: 3,
+        //     spaceBetween: 30
+        // },
+        // when window width is >= 640px
+        998: {
+            slidesPerView: 2,
+            spaceBetween: 40
+        },
+        1200:{
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    },
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+        })
+    </script>
 
 </body>
 </html>

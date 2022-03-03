@@ -4,8 +4,11 @@
     <list default="true" id="0bd33cca-d7bd-4c2e-ae47-2e3da6169981" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/responsive.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
@@ -47,7 +50,15 @@
       <workItem from="1645474323088" duration="2781000" />
       <workItem from="1645513019932" duration="25732000" />
       <workItem from="1645596967747" duration="9216000" />
-      <workItem from="1645607694588" duration="6811000" />
+      <workItem from="1645607694588" duration="18583000" />
+      <workItem from="1645644076327" duration="2447000" />
+      <workItem from="1645647947188" duration="2530000" />
+      <workItem from="1645805666098" duration="3880000" />
+      <workItem from="1645880170521" duration="5688000" />
+      <workItem from="1645982445868" duration="1463000" />
+      <workItem from="1646069394723" duration="5552000" />
+      <workItem from="1646165668181" duration="2362000" />
+      <workItem from="1646239906920" duration="15290000" />
     </task>
     <servers />
   </component>

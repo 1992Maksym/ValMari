@@ -183,6 +183,8 @@ body{
         margin-bottom: 75px;
       }
       .courses-slider-container{
+        padding: 50px 0;
+
         .courses-item{
           background-color: #fff;
           max-width: 360px;
@@ -287,4 +289,57 @@ body{
       }
     }
   }
+
+  .bout-us{
+     margin-top: 175px;
+     display: flex;
+     justify-content: space-between;
+
+    .about-us-more-mobile{
+      display: none;
+    }
+
+     .about-us-img img{
+       width: 590px;
+       height: 666px;
+     }
+     .about-us-description-wrap{
+       margin-left: 120px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+
+       .about-us-title{
+         @include text-about-us;
+         color: #858585;
+       }
+       .about-us-main-prescription{
+         //margin: 30px 0 75px;
+         font-size: 35px;
+         line-height: 110%;
+         font-weight: 700;
+
+         .about-us-main-title{
+           color: $green;
+           display: block;
+         }
+       }
+       .about-us-main-description{
+         @include text-about-us;
+         color: $dark-grey;
+
+         span{
+           display: block;
+         }
+         .about-us-main-description-text{
+           margin: 30px 0;
+         }
+
+       }
+       .about-us-main-more{
+        @include text-about-us;
+         color: $green;
+       }
+     }
+   }
 }

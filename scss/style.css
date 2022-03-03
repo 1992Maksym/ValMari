@@ -195,6 +195,9 @@ body .courses-main-block .courses-block .courses-title {
   font-weight: 600;
   margin-bottom: 75px;
 }
+body .courses-main-block .courses-block .courses-slider-container {
+  padding: 50px 0;
+}
 body .courses-main-block .courses-block .courses-slider-container .courses-item {
   background-color: #fff;
   max-width: 360px;
@@ -316,6 +319,57 @@ body .courses-main-block .courses-block .courses-slider-container .courses-item 
 body .courses-main-block .courses-block .courses-slider-container .courses-item .course-buttons .details-block.master-btn {
   background-color: #ddf6f4;
   color: #1D8195;
+}
+body .bout-us {
+  margin-top: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+body .bout-us .about-us-more-mobile {
+  display: none;
+}
+body .bout-us .about-us-img img {
+  width: 590px;
+  height: 666px;
+}
+body .bout-us .about-us-description-wrap {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .bout-us .about-us-description-wrap .about-us-title {
+  font-size: 24px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #858585;
+}
+body .bout-us .about-us-description-wrap .about-us-main-prescription {
+  font-size: 35px;
+  line-height: 110%;
+  font-weight: 700;
+}
+body .bout-us .about-us-description-wrap .about-us-main-prescription .about-us-main-title {
+  color: #55A630;
+  display: block;
+}
+body .bout-us .about-us-description-wrap .about-us-main-description {
+  font-size: 24px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #424242;
+}
+body .bout-us .about-us-description-wrap .about-us-main-description span {
+  display: block;
+}
+body .bout-us .about-us-description-wrap .about-us-main-description .about-us-main-description-text {
+  margin: 30px 0;
+}
+body .bout-us .about-us-description-wrap .about-us-main-more {
+  font-size: 24px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #55A630;
 }
 
 /*# sourceMappingURL=style.css.map */
