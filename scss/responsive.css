@@ -71,6 +71,40 @@
   body .bout-us .about-us-description-wrap .about-us-main-more {
     font-size: 20px;
   }
+
+  body .study .study-title {
+    font-size: 30px;
+    margin: 150px 0 55px;
+  }
+  body .study .study-wrap-courses {
+    grid-gap: 30px;
+  }
+  body .study .study-wrap-courses .study-course-top {
+    grid-gap: 28px;
+  }
+  body .study .study-wrap-courses .study-course-top .cosmetology-course,
+body .study .study-wrap-courses .study-course-top .online-course {
+    width: 465px;
+    height: 207px;
+  }
+  body .study .study-wrap-courses .study-course-bottom {
+    grid-gap: 30px;
+  }
+  body .study .study-wrap-courses .study-course-bottom .master-course,
+body .study .study-wrap-courses .study-course-bottom .timetable-course,
+body .study .study-wrap-courses .study-course-bottom .discount-course {
+    width: 298px;
+    height: 207px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap {
+    padding: 20px;
+  }
+  body .study .study-wrap-courses .study-course .course-title {
+    font-size: 25px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
+    margin-top: 40px;
+  }
 }
 @media (max-width: 991px) {
   body header .mobile-header {
@@ -241,6 +275,42 @@ body .bout-us .about-us-description-wrap .about-us-main-more {
   body .bout-us .about-us-description-wrap .about-us-main-description .about-us-main-description-text {
     margin: 10px 0;
   }
+
+  body .study .study-title {
+    font-size: 25px;
+    margin: 105px 0 50px;
+  }
+  body .study .study-wrap-courses {
+    grid-gap: 20px;
+  }
+  body .study .study-wrap-courses .study-course-top {
+    grid-gap: 42px;
+  }
+  body .study .study-wrap-courses .study-course-top .cosmetology-course,
+body .study .study-wrap-courses .study-course-top .online-course {
+    width: 312px;
+    height: 148px;
+  }
+  body .study .study-wrap-courses .study-course-bottom {
+    grid-gap: 20px;
+  }
+  body .study .study-wrap-courses .study-course-bottom .master-course,
+body .study .study-wrap-courses .study-course-bottom .timetable-course,
+body .study .study-wrap-courses .study-course-bottom .discount-course {
+    width: 201px;
+    height: 147px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap {
+    padding: 15px;
+  }
+  body .study .study-wrap-courses .study-course .course-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
+    margin-top: 25px;
+    font-size: 12px;
+  }
 }
 @media (max-width: 768px) {
   body header .mobile-header {
@@ -282,6 +352,49 @@ body .bout-us .about-us-description-wrap .about-us-main-more {
   body .courses-main-block .statistics-block .statistics-text {
     font-size: 10px;
     line-height: 12px;
+  }
+
+  body .study .study-title {
+    font-size: 20px;
+    margin: 105px 0 50px;
+  }
+  body .study .study-wrap-courses {
+    grid-gap: 20px;
+  }
+  body .study .study-wrap-courses .study-course-top {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+  }
+  body .study .study-wrap-courses .study-course-top .cosmetology-course,
+body .study .study-wrap-courses .study-course-top .online-course {
+    width: 290px;
+    height: 148px;
+  }
+  body .study .study-wrap-courses .study-course-bottom {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+  }
+  body .study .study-wrap-courses .study-course-bottom .master-course,
+body .study .study-wrap-courses .study-course-bottom .timetable-course,
+body .study .study-wrap-courses .study-course-bottom .discount-course {
+    width: 190px;
+    height: 147px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap {
+    padding: 10px;
+  }
+  body .study .study-wrap-courses .study-course .course-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow {
+    display: none;
   }
 }
 @media (max-width: 630px) {
@@ -377,6 +490,51 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   }
   body .bout-us .about-us-more-mobile .about-us-arrow {
     margin-left: 15px;
+  }
+
+  body .study .study-title {
+    margin: 80px 0 40px;
+  }
+  body .study .study-wrap-courses {
+    grid-gap: 10px;
+  }
+  body .study .study-wrap-courses .study-course-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .study .study-wrap-courses .study-course-top .cosmetology-course,
+body .study .study-wrap-courses .study-course-top .online-course {
+    width: 380px;
+    height: 148px;
+  }
+  body .study .study-wrap-courses .study-course-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+  }
+  body .study .study-wrap-courses .study-course-bottom .master-course,
+body .study .study-wrap-courses .study-course-bottom .timetable-course {
+    width: 185px;
+    height: 147px;
+  }
+  body .study .study-wrap-courses .study-course-bottom .discount-course {
+    width: 380px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap {
+    padding: 10px;
+  }
+  body .study .study-wrap-courses .study-course .course-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow {
+    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -565,6 +723,29 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   }
   body .bout-us .about-us-more-mobile {
     justify-content: space-around;
+  }
+
+  body .study .study-wrap-courses .study-course-top .cosmetology-course,
+body .study .study-wrap-courses .study-course-top .online-course {
+    width: 280px;
+  }
+  body .study .study-wrap-courses .study-course-bottom .master-course,
+body .study .study-wrap-courses .study-course-bottom .timetable-course {
+    width: 135px;
+  }
+  body .study .study-wrap-courses .study-course-bottom .discount-course {
+    width: 280px;
+  }
+  body .study .study-wrap-courses .study-course .course-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
+    margin-top: 25px;
+    font-size: 9px;
+  }
+  body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow {
+    display: none;
   }
 }
 

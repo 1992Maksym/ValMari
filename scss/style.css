@@ -371,5 +371,88 @@ body .bout-us .about-us-description-wrap .about-us-main-more {
   font-weight: 500;
   color: #55A630;
 }
+body .study .study-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 170px 0 75px;
+  text-align: center;
+}
+body .study .study-wrap-courses {
+  display: grid;
+  grid-gap: 55px;
+}
+body .study .study-wrap-courses .study-course-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+body .study .study-wrap-courses .study-course-top .cosmetology-course {
+  background: url(../images/study/cosmetology.png);
+  width: 570px;
+  height: 260px;
+}
+body .study .study-wrap-courses .study-course-top .online-course {
+  background: url(../images/study/online.png);
+  width: 570px;
+  height: 260px;
+}
+body .study .study-wrap-courses .study-course-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 54px;
+}
+body .study .study-wrap-courses .study-course-bottom .master-course {
+  background: url(../images/study/master-class.png);
+  width: 364px;
+  height: 260px;
+}
+body .study .study-wrap-courses .study-course-bottom .timetable-course {
+  background: url(../images/study/timetable.png);
+  width: 364px;
+  height: 260px;
+}
+body .study .study-wrap-courses .study-course-bottom .discount-course {
+  background: url(../images/study/discounts.png);
+  width: 364px;
+  height: 260px;
+}
+body .study .study-wrap-courses .study-course .study-course-wrap {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 25px;
+}
+body .study .study-wrap-courses .study-course .course-title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow,
+body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
+  display: block;
+  color: #fff;
+}
+body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow {
+  display: flex;
+  align-items: center;
+}
+body .study .study-wrap-courses .study-course .course-title-arrow,
+body .study .study-wrap-courses .study-course .course-main-description {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */

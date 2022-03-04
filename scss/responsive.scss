@@ -76,6 +76,48 @@
       }
     }
   }
+  body .study{
+    .study-title{
+      font-size: 30px;
+      margin: 150px 0 55px;
+    }
+    .study-wrap-courses{
+      grid-gap: 30px;
+
+      .study-course-top{
+        grid-gap: 28px;
+
+        .cosmetology-course,
+        .online-course{
+          width: 465px;
+          height: 207px;
+        }
+      }
+      .study-course-bottom{
+        grid-gap: 30px;
+
+        .master-course,
+        .timetable-course,
+        .discount-course{
+          width: 298px;
+          height: 207px;
+        }
+      }
+      .study-course{
+        .study-course-wrap{
+          padding: 20px;
+        }
+        .course-title{
+          font-size: 25px;
+        }
+        .study-course-wrap:hover{
+          .course-main-description{
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media(max-width:991px){
@@ -106,7 +148,6 @@
       display: none;
     }
   }
-
   body .main-banner .banner-wrap{
     padding: 30px 15px;
     background-size: 355px 290px;
@@ -152,7 +193,6 @@
       }
     }
   }
-
   body .courses-main-block{
     background-size: 535px;
 
@@ -236,6 +276,50 @@
       }
     }
   }
+  body .study{
+    .study-title{
+      font-size: 25px;
+      margin: 105px 0 50px;
+    }
+    .study-wrap-courses{
+      grid-gap: 20px;
+
+      .study-course-top{
+        grid-gap: 42px;
+
+        .cosmetology-course,
+        .online-course{
+          width: 312px;
+          height: 148px;
+        }
+      }
+      .study-course-bottom{
+        grid-gap: 20px;
+
+        .master-course,
+        .timetable-course,
+        .discount-course{
+          width: 201px;
+          height: 147px;
+        }
+      }
+      .study-course{
+        .study-course-wrap{
+          padding: 15px;
+        }
+        .course-title{
+          font-size: 18px;
+          line-height: 20px;
+        }
+        .study-course-wrap:hover{
+          .course-main-description{
+            margin-top: 25px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -261,8 +345,6 @@
       background: url(../images/header/header-tel-mobile.svg)
     }
   }
-
-
   body .courses-main-block{
     background-size: 350px;
 
@@ -279,6 +361,57 @@
       .statistics-text{
         font-size: 10px;
         line-height: 12px;
+      }
+    }
+  }
+  body .study{
+    .study-title{
+      font-size: 20px;
+      margin: 105px 0 50px;
+    }
+    .study-wrap-courses{
+      grid-gap: 20px;
+
+      .study-course-top{
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 10px;
+
+        .cosmetology-course,
+        .online-course{
+          width: 290px;
+          height: 148px;
+        }
+      }
+      .study-course-bottom{
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 10px;
+
+        .master-course,
+        .timetable-course,
+        .discount-course{
+          width: 190px;
+          height: 147px;
+        }
+      }
+      .study-course{
+        .study-course-wrap{
+          padding: 10px;
+        }
+        .course-title{
+          font-size: 18px;
+          line-height: 20px;
+        }
+        .study-course-wrap:hover{
+          .course-main-description{
+            margin-top: 25px;
+            font-size: 12px;
+          }
+          .course-title-arrow{
+            display: none;
+          }
+        }
       }
     }
   }
@@ -365,6 +498,59 @@
       }
     }
   }
+  body .study{
+    .study-title{
+      margin: 80px 0 40px;
+    }
+    .study-wrap-courses{
+      grid-gap: 10px;
+
+      .study-course-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .cosmetology-course,
+        .online-course,{
+          width: 380px;
+          height: 148px;
+        }
+      }
+      .study-course-bottom{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+
+        .master-course,
+        .timetable-course{
+          width: 185px;
+          height: 147px;
+        }
+        .discount-course{
+          width: 380px;
+        }
+      }
+      .study-course{
+        .study-course-wrap{
+          padding: 10px;
+        }
+        .course-title{
+          font-size: 18px;
+          line-height: 20px;
+        }
+        .study-course-wrap:hover{
+          .course-main-description{
+            margin-top: 25px;
+            font-size: 12px;
+          }
+          .course-title-arrow{
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 480px) {
   body header .mobile-header{
@@ -381,7 +567,6 @@
       display: none;
     }
   }
-
   body .main-banner .banner-wrap{
     padding: 12px 15px 188px 15px;
     background-size: 231px 196px;
@@ -441,7 +626,6 @@
       }
     }
   }
-
   body .courses-main-block{
     background: none;
 
@@ -510,7 +694,6 @@
       }
     }
   }
-
   body .bout-us{
     margin-top: 80px;
     flex-direction: column-reverse;
@@ -539,6 +722,45 @@
     }
     .about-us-more-mobile {
       justify-content: space-around;
+    }
+  }
+  body .study{
+
+    .study-wrap-courses{
+
+      .study-course-top{
+
+        .cosmetology-course,
+        .online-course,{
+          width: 280px;
+        }
+      }
+      .study-course-bottom{
+
+        .master-course,
+        .timetable-course{
+          width: 135px;
+        }
+        .discount-course{
+          width: 280px;
+        }
+      }
+      .study-course{
+
+        .course-title{
+          font-size: 14px;
+          line-height: 20px;
+        }
+        .study-course-wrap:hover{
+          .course-main-description{
+            margin-top: 25px;
+            font-size: 9px;
+          }
+          .course-title-arrow{
+            display: none;
+          }
+        }
+      }
     }
   }
 }
