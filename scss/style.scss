@@ -357,7 +357,7 @@ body{
       .study-course-top{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 15px;
 
         .cosmetology-course{
           background: url(../images/study/cosmetology.png);
@@ -450,7 +450,6 @@ body{
         flex-direction: column;
         justify-content: space-between;
         max-width: 630px;
-        margin-right: 74px;
         .models-title-info{
           font-size: 40px;
           line-height: 46px;
@@ -486,7 +485,7 @@ body{
 
       }
       .models-img{
-        background: url(../images/model.png);
+        background: url(../images/models/model.png);
         width: 498px;
         height: 459px;
       }

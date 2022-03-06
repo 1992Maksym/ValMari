@@ -384,7 +384,7 @@ body .study .study-wrap-courses {
 body .study .study-wrap-courses .study-course-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
 }
 body .study .study-wrap-courses .study-course-top .cosmetology-course {
   background: url(../images/study/cosmetology.png);
@@ -466,7 +466,6 @@ body .models-set-block .models-wrap .models-info-block {
   flex-direction: column;
   justify-content: space-between;
   max-width: 630px;
-  margin-right: 74px;
 }
 body .models-set-block .models-wrap .models-info-block .models-title-info {
   font-size: 40px;
@@ -499,7 +498,7 @@ body .models-set-block .models-wrap .models-info-block .models-btn {
   background-color: #55A630;
 }
 body .models-set-block .models-wrap .models-img {
-  background: url(../images/model.png);
+  background: url(../images/models/model.png);
   width: 498px;
   height: 459px;
 }

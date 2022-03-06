@@ -80,15 +80,15 @@
     grid-gap: 30px;
   }
   body .study .study-wrap-courses .study-course-top {
-    grid-gap: 28px;
+    grid-gap: 20px;
   }
   body .study .study-wrap-courses .study-course-top .cosmetology-course,
 body .study .study-wrap-courses .study-course-top .online-course {
-    width: 465px;
+    width: 460px;
     height: 207px;
   }
   body .study .study-wrap-courses .study-course-bottom {
-    grid-gap: 30px;
+    grid-gap: 20px;
   }
   body .study .study-wrap-courses .study-course-bottom .master-course,
 body .study .study-wrap-courses .study-course-bottom .timetable-course,
@@ -104,6 +104,37 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   }
   body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
     margin-top: 40px;
+  }
+
+  body .models-set-block {
+    margin-top: 140px;
+  }
+  body .models-set-block .models-wrap .models-info-block {
+    max-width: 456px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-title-info {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description .description-top {
+    margin-bottom: 20px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-btn {
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    width: 298px;
+    height: 55px;
+  }
+  body .models-set-block .models-wrap .models-img {
+    background: url(../images/models/model.png);
+    width: 464px;
+    height: 372px;
   }
 }
 @media (max-width: 991px) {
@@ -288,7 +319,7 @@ body .bout-us .about-us-description-wrap .about-us-main-more {
   }
   body .study .study-wrap-courses .study-course-top .cosmetology-course,
 body .study .study-wrap-courses .study-course-top .online-course {
-    width: 312px;
+    width: 335px;
     height: 148px;
   }
   body .study .study-wrap-courses .study-course-bottom {
@@ -297,7 +328,7 @@ body .study .study-wrap-courses .study-course-top .online-course {
   body .study .study-wrap-courses .study-course-bottom .master-course,
 body .study .study-wrap-courses .study-course-bottom .timetable-course,
 body .study .study-wrap-courses .study-course-bottom .discount-course {
-    width: 201px;
+    width: 223px;
     height: 147px;
   }
   body .study .study-wrap-courses .study-course .study-course-wrap {
@@ -310,6 +341,30 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-main-description {
     margin-top: 25px;
     font-size: 12px;
+  }
+
+  body .models-set-block {
+    margin-top: 100px;
+  }
+  body .models-set-block .models-wrap .models-info-block {
+    max-width: 337px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description .description-top {
+    margin-bottom: 20px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-btn {
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+  }
+  body .models-set-block .models-wrap .models-img {
+    background: url(../images/models/models-laptop.png);
+    width: 276px;
+    height: 279px;
   }
 }
 @media (max-width: 768px) {
@@ -395,6 +450,34 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   }
   body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow {
     display: none;
+  }
+
+  body .models-set-block .models-wrap .models-info-block {
+    max-width: 350px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-title-info {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description .description-top {
+    margin-bottom: 20px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-btn {
+    font-size: 15px;
+    line-height: 26px;
+    text-decoration: none;
+    width: 230px;
+    height: 40px;
+  }
+  body .models-set-block .models-wrap .models-img {
+    background: url(../images/models/models-laptop.png);
+    width: 230px;
+    height: 279px;
   }
 }
 @media (max-width: 630px) {
@@ -535,6 +618,41 @@ body .study .study-wrap-courses .study-course-bottom .timetable-course {
   }
   body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow {
     display: none;
+  }
+
+  body .models-set-block .models-wrap {
+    flex-direction: column;
+  }
+  body .models-set-block .models-wrap .models-info-block {
+    max-width: 100%;
+    text-align: center;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-title-info {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description .description-top {
+    margin: 40px 0 20px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-btn {
+    font-size: 15px;
+    line-height: 26px;
+    text-decoration: none;
+    width: 230px;
+    height: 40px;
+    margin: 40px auto 25px;
+  }
+  body .models-set-block .models-wrap .models-img {
+    display: block;
+    margin: 0 auto;
+    background: url(../images/models/models-phone.png);
+    width: 360px;
+    height: 130px;
   }
 }
 @media (max-width: 480px) {
@@ -746,6 +864,32 @@ body .study .study-wrap-courses .study-course-bottom .timetable-course {
   }
   body .study .study-wrap-courses .study-course .study-course-wrap:hover .course-title-arrow {
     display: none;
+  }
+
+  body .models-set-block .models-wrap {
+    flex-direction: column;
+  }
+  body .models-set-block .models-wrap .models-info-block {
+    max-width: 100%;
+    text-align: center;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-title-info {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  body .models-set-block .models-wrap .models-info-block .models-description .description-top {
+    margin: 40px 0 20px;
+  }
+  body .models-set-block .models-wrap .models-img {
+    display: block;
+    margin: 0 auto;
+    background: url(../images/models/models-small-phone.png);
+    width: 300px;
+    height: 154px;
   }
 }
 
