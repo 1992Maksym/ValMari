@@ -357,16 +357,16 @@ body{
       .study-course-top{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 60px;
+        grid-gap: 20px;
 
         .cosmetology-course{
           background: url(../images/study/cosmetology.png);
-          width: 570px;
+          width: 560px;
           height: 260px;
         }
         .online-course{
           background: url(../images/study/online.png);
-          width: 570px;
+          width: 560px;
           height: 260px;
         }
       }
@@ -374,22 +374,23 @@ body{
       .study-course-bottom{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 54px;
+        grid-gap: 20px;
+
+        .master-course,
+        .timetable-course,
+        .discount-course{
+          width: 364px;
+          height: 260px;
+        }
 
         .master-course{
           background: url(../images/study/master-class.png);
-          width: 364px;
-          height: 260px;
         }
         .timetable-course{
           background: url(../images/study/timetable.png);
-          width: 364px;
-          height: 260px;
         }
         .discount-course{
           background: url(../images/study/discounts.png);
-          width: 364px;
-          height: 260px;
         }
       }
 
@@ -435,6 +436,59 @@ body{
         .course-main-description{
           display: none;
         }
+      }
+    }
+  }
+
+  .models-set-block{
+    margin-top: 178px;
+    .models-wrap{
+      display: flex;
+      justify-content: space-between;
+      .models-info-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 630px;
+        margin-right: 74px;
+        .models-title-info{
+          font-size: 40px;
+          line-height: 46px;
+          font-weight: 700;
+          color: $green;
+        }
+        .models-description{
+          font-size: 25px;
+          line-height: 31px;
+          font-weight: 500;
+          span{
+            display: block;
+          }
+          .description-top{
+            margin-bottom: 30px;
+          }
+
+        }
+
+        .models-btn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 23px;
+          line-height: 26px;
+          font-weight: 600;
+          text-decoration: none;
+          width: 385px;
+          height: 75px;
+          color: #fff;
+          background-color: $green;
+        }
+
+      }
+      .models-img{
+        background: url(../images/model.png);
+        width: 498px;
+        height: 459px;
       }
     }
   }
