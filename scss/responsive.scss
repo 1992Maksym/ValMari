@@ -193,6 +193,29 @@
       }
     }
   }
+  body .we-are{
+    .we-are-title{
+      font-size: 30px;
+      margin: 140px 0 50px 0;
+    }
+    .we-are-wrap{
+
+      .we-are-item{
+        width: 300px;
+        height: 250px;
+        padding: 40px 10px 0 24px;
+
+        .we-are-title-item{
+          font-size: 20px;
+          margin-bottom: 13px;
+        }
+        .we-are-description{
+          font-size: 15px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
 }
 
 @media(max-width:991px){
@@ -460,6 +483,39 @@
           }
           .masterClass-price-block .masterClass-price{
             width: 100px;
+          }
+        }
+      }
+    }
+  }
+  body .we-are{
+    .we-are-title{
+      font-size: 25px;
+      margin: 100px 0 50px 0;
+    }
+    .we-are-wrap{
+      flex-direction: column;
+
+      .we-are-item{
+        width: 100%;
+        height: 150px;
+        padding: 15px 10px 0 220px;
+        margin-bottom: 30px;
+
+        .we-are-title-item{
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+        .we-are-description{
+          font-size: 15px;
+        }
+        .we-are-img{
+          top: 0;
+          left: 0;
+          margin :15px 0 0 5px;
+          svg{
+            height: 120px;
+            width: 200px;
           }
         }
       }
@@ -855,6 +911,36 @@
       }
     }
   }
+  body .we-are{
+    .we-are-title{
+      font-size: 20px;
+      margin: 80px 0 50px 0;
+    }
+    .we-are-wrap{
+
+      .we-are-item{
+        height: 220px;
+        padding: 15px 10px 0 105px;
+        margin-bottom: 40px;
+
+        .we-are-title-item{
+          font-size: 15px;
+          margin-bottom: 15px;
+        }
+        .we-are-description{
+          font-size: 15px;
+        }
+        .we-are-img{
+          top: 50px;
+          left: 5px;
+          svg{
+            height: 120px;
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 480px) {
@@ -1137,6 +1223,33 @@
             height: 66px;
           }
 
+        }
+      }
+    }
+  }
+  body .we-are{
+    .we-are-title{
+      margin: 80px 0 40px 0;
+    }
+    .we-are-wrap{
+
+      .we-are-item{
+        height: 235px;
+        padding: 35px 20px 30px;
+
+        .we-are-title-item{
+          margin-bottom: 20px;
+          text-align: center;
+
+        }
+
+        .we-are-img{
+          top: 0px;
+          left: calc(50% - 20px);
+          svg{
+            height: 40px;
+            width: 50px;
+          }
         }
       }
     }

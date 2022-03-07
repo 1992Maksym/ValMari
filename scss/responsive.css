@@ -167,6 +167,24 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-price-block .masterClass-price {
     width: 136px;
   }
+
+  body .we-are .we-are-title {
+    font-size: 30px;
+    margin: 140px 0 50px 0;
+  }
+  body .we-are .we-are-wrap .we-are-item {
+    width: 300px;
+    height: 250px;
+    padding: 40px 10px 0 24px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-title-item {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-description {
+    font-size: 15px;
+    line-height: 17px;
+  }
 }
 @media (max-width: 991px) {
   body header .mobile-header {
@@ -428,6 +446,36 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   }
   body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-price-block .masterClass-price {
     width: 100px;
+  }
+
+  body .we-are .we-are-title {
+    font-size: 25px;
+    margin: 100px 0 50px 0;
+  }
+  body .we-are .we-are-wrap {
+    flex-direction: column;
+  }
+  body .we-are .we-are-wrap .we-are-item {
+    width: 100%;
+    height: 150px;
+    padding: 15px 10px 0 220px;
+    margin-bottom: 30px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-title-item {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-description {
+    font-size: 15px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-img {
+    top: 0;
+    left: 0;
+    margin: 15px 0 0 5px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-img svg {
+    height: 120px;
+    width: 200px;
   }
 }
 @media (max-width: 768px) {
@@ -785,6 +833,31 @@ body .study .study-wrap-courses .study-course-bottom .timetable-course {
   body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-price-block .masterClass-link {
     height: 66px;
   }
+
+  body .we-are .we-are-title {
+    font-size: 20px;
+    margin: 80px 0 50px 0;
+  }
+  body .we-are .we-are-wrap .we-are-item {
+    height: 220px;
+    padding: 15px 10px 0 105px;
+    margin-bottom: 40px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-title-item {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-description {
+    font-size: 15px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-img {
+    top: 50px;
+    left: 5px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-img svg {
+    height: 120px;
+    width: 150px;
+  }
 }
 @media (max-width: 480px) {
   body header .mobile-header {
@@ -1055,6 +1128,26 @@ body .study .study-wrap-courses .study-course-bottom .timetable-course {
   }
   body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-price-block .masterClass-link {
     height: 66px;
+  }
+
+  body .we-are .we-are-title {
+    margin: 80px 0 40px 0;
+  }
+  body .we-are .we-are-wrap .we-are-item {
+    height: 235px;
+    padding: 35px 20px 30px;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-title-item {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-img {
+    top: 0px;
+    left: calc(50% - 20px);
+  }
+  body .we-are .we-are-wrap .we-are-item .we-are-img svg {
+    height: 40px;
+    width: 50px;
   }
 }
 
