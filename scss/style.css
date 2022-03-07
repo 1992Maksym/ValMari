@@ -502,5 +502,70 @@ body .models-set-block .models-wrap .models-img {
   width: 498px;
   height: 459px;
 }
+body .masterClass .masterClass-title {
+  font-size: 35px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin: 170px 0 30px;
+}
+body .masterClass .masterClass-subtitle {
+  text-align: center;
+  font-size: 25px;
+  line-height: 26px;
+  font-weight: 500;
+}
+body .masterClass .masterClass-slider {
+  margin: 75px 0 0 0;
+}
+body .masterClass .masterClass-slider .masterClass-item {
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.15);
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-img img {
+  width: 100%;
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-body {
+  display: flex;
+  justify-content: space-between;
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-info .masterClass-date-info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #424242;
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-info .masterClass-description {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #424242;
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-info .masterClass-autors {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-price-block .masterClass-price {
+  display: flex;
+  height: 132px;
+  align-items: center;
+  justify-content: center;
+  width: 153px;
+  background-color: #ECF9EB;
+}
+body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-price-block .masterClass-link {
+  width: 100%;
+  display: flex;
+  height: 98px;
+  align-items: center;
+  justify-content: center;
+  background-color: #55A630;
+}
 
 /*# sourceMappingURL=style.css.map */
