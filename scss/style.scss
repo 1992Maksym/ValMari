@@ -1,4 +1,5 @@
 @import 'mixins.scss';
+@import '../node_modules/animate.css/animate.css';
 
 .container:before,
 .container:after{
@@ -614,6 +615,31 @@ body{
         position: absolute;
         bottom: 28px;
         right: 18px;
+      }
+    }
+  }
+
+  .offers{
+    .offers-title{
+      font-size: 35px;
+      line-height: 28px;
+      font-weight: 600;
+      margin: 160px 0 75px;
+      text-align: center;
+    }
+    .swiper-wrapper{
+      .offer-item.first{
+        background: url(../images/offers/15-20.png);
+      }
+      .offer-item.second{
+        background: url(../images/offers/10-15.png);
+      }
+      .offer-item.third{
+        background: url(../images/offers/25.png);
+      }
+      .offer-item{
+        width: 380px;
+        height: 380px;
       }
     }
   }

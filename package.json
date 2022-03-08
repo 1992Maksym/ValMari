@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^3.4.1",
     "jquery": "^3.6.0",
     "swiper": "^8.0.6"

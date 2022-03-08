@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css">
+<!--    <link rel="stylesheet" href="./node_modules/animate.css/animate.css">-->
 <!--    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>-->
 
     <link rel="stylesheet" href="scss/style.css">
@@ -81,7 +82,7 @@
     <main>
         <section class="main-banner">
             <div class="banner-wrap container">
-                <div class="banner-text">
+                <div class="banner-text wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" >
                     <div class="prescription">Бесплатный вебинар</div>
                     <div class="main-text">ПРОФЕССИЯ КОСМЕТОЛОГ</div>
                     <div class="description">Приглашаем на бесплатный вебинар для профессиональных косметологов и интересующихся этой профессией</div>
@@ -569,12 +570,26 @@
                 </div>
             </div>
         </section>
+        <section class="offers">
+            <div class="offers-title">Специальные предложения</div>
+            <div class="offers-wrap container swiper">
+                <div class="swiper-wrapper">
+                    <div class="offer-item swiper-slide first"></div>
+                    <div class="offer-item swiper-slide second"></div>
+                    <div class="offer-item swiper-slide third"></div>
+                    <div class="offer-item swiper-slide first"></div>
+                    <div class="offer-item swiper-slide second"></div>
+                    <div class="offer-item swiper-slide third"></div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
 <!--    <script src="./node_modules/jquery/dist/jquery.min.js"></script>-->
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!--    <script src="./js/wow.min.js"></script>-->
 
     <!--    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>-->
     <script type="module">

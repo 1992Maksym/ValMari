@@ -1,3 +1,4 @@
+@import '../node_modules/animate.css/animate.css';
 .container:before,
 .container:after {
   content: none;
@@ -613,6 +614,26 @@ body .we-are .we-are-wrap .training .we-are-img {
   position: absolute;
   bottom: 28px;
   right: 18px;
+}
+body .offers .offers-title {
+  font-size: 35px;
+  line-height: 28px;
+  font-weight: 600;
+  margin: 160px 0 75px;
+  text-align: center;
+}
+body .offers .swiper-wrapper .offer-item.first {
+  background: url(../images/offers/15-20.png);
+}
+body .offers .swiper-wrapper .offer-item.second {
+  background: url(../images/offers/10-15.png);
+}
+body .offers .swiper-wrapper .offer-item.third {
+  background: url(../images/offers/25.png);
+}
+body .offers .swiper-wrapper .offer-item {
+  width: 380px;
+  height: 380px;
 }
 
 /*# sourceMappingURL=style.css.map */
