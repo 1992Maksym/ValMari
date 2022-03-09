@@ -635,6 +635,45 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
     font-size: 25px;
     margin: 100px 0 40px;
   }
+
+  body .feedback-form {
+    margin: 80px auto;
+  }
+  body .feedback-form .feedback-wrap-form {
+    padding: 35px;
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+  }
+  body .feedback-form .feedback-wrap-form .feedback-title {
+    font-size: 20px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+  body .feedback-form .feedback-wrap-form .feedback-subtitle {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+  body .feedback-form .feedback-wrap-form .form {
+    width: 300px;
+    margin: 40px auto 0;
+  }
+  body .feedback-form .feedback-wrap-form .form .form-name,
+body .feedback-form .feedback-wrap-form .form .form-phone {
+    margin-bottom: 10px;
+    height: 32px;
+    padding: 0 20px;
+  }
+  body .feedback-form .feedback-wrap-form .form .form-name::placeholder,
+body .feedback-form .feedback-wrap-form .form .form-phone::placeholder {
+    color: #9C9C9C;
+    font-size: 14px;
+  }
+  body .feedback-form .feedback-wrap-form .form .form-btn {
+    margin-top: 23px;
+    font-size: 15px;
+    padding: 18px 0;
+  }
 }
 @media (max-width: 630px) {
   body .main-banner .banner-wrap {
@@ -1109,6 +1148,16 @@ body .study .study-wrap-courses .study-course-bottom .timetable-course {
   body .offers .offers-title {
     font-size: 20px;
     margin: 80px 0 30px;
+  }
+
+  body .feedback-form .feedback-wrap-form {
+    padding: 25px;
+  }
+  body .feedback-form .feedback-wrap-form .form {
+    width: 200px;
+  }
+  body .feedback-form .feedback-wrap-form .form .form-btn {
+    font-size: 15px;
   }
 }
 @media (max-width: 430px) {

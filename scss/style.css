@@ -648,10 +648,12 @@ body .offers .swiper-wrapper .offer-item {
 }
 body .feedback-form {
   margin: 180px auto;
+}
+body .feedback-form .feedback-wrap-form {
   padding: 75px 0;
   box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
 }
-body .feedback-form .feedback-title {
+body .feedback-form .feedback-wrap-form .feedback-title {
   font-size: 30px;
   line-height: 28px;
   font-weight: 600;
@@ -659,30 +661,30 @@ body .feedback-form .feedback-title {
   text-align: center;
   margin-bottom: 20px;
 }
-body .feedback-form .feedback-subtitle {
+body .feedback-form .feedback-wrap-form .feedback-subtitle {
   font-size: 15px;
   line-height: 26px;
   font-weight: 500;
   text-align: center;
 }
-body .feedback-form .form {
+body .feedback-form .feedback-wrap-form .form {
   width: 430px;
   margin: 60px auto 0;
 }
-body .feedback-form .form .form-name,
-body .feedback-form .form .form-phone {
+body .feedback-form .feedback-wrap-form .form .form-name,
+body .feedback-form .feedback-wrap-form .form .form-phone {
   width: 100%;
   margin-bottom: 15px;
   height: 60px;
   border: 1px solid #55A630;
   padding: 0 35px;
 }
-body .feedback-form .form .form-name::placeholder,
-body .feedback-form .form .form-phone::placeholder {
+body .feedback-form .feedback-wrap-form .form .form-name::placeholder,
+body .feedback-form .feedback-wrap-form .form .form-phone::placeholder {
   color: #9C9C9C;
   font-size: 14px;
 }
-body .feedback-form .form .form-btn {
+body .feedback-form .feedback-wrap-form .form .form-btn {
   width: 100%;
   margin-top: 30px;
   background-color: #55A630;
@@ -693,6 +695,54 @@ body .feedback-form .form .form-btn {
   align-items: center;
   justify-content: center;
   padding: 25px 0;
+  border: 1px solid #55A630;
+  transition: 0.5s ease;
+}
+body .feedback-form .feedback-wrap-form .form .form-btn:hover {
+  background-color: #fff;
+  color: #55A630;
+}
+body .footer {
+  display: flex;
+}
+body .footer .footer-map img {
+  height: 774px;
+}
+body .footer .footer-contacts {
+  background-color: #424242;
+  color: #fff;
+  width: 100%;
+  padding: 37px 0 0 75px;
+}
+body .footer .footer-contacts .footer-phone {
+  font-size: 30px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 50px 0 25px;
+}
+body .footer .footer-contacts .footer-address {
+  font-size: 25px;
+  line-height: 26px;
+  font-weight: 500;
+}
+body .footer .footer-contacts .footer-menu-wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin: 75px 0;
+}
+body .footer .footer-contacts .footer-menu-wrap .footer-menu-item span {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+body .footer .footer-contacts .footer-accounts {
+  display: flex;
+  margin-bottom: 25px;
+}
+body .footer .footer-contacts .footer-accounts .footer-facebook {
+  margin-right: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

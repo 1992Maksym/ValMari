@@ -654,53 +654,110 @@ body{
 
   .feedback-form{
     margin: 180px auto;
-    padding: 75px 0;
-    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
 
-    .feedback-title{
-      font-size: 30px;
-      line-height: 28px;
-      font-weight: 600;
-      color: $green;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .feedback-subtitle{
-      font-size: 15px;
-      line-height: 26px;
-      font-weight: 500;
-      text-align: center;
-    }
-    .form{
-      width: 430px;
-      margin: 60px auto 0;
+    .feedback-wrap-form{
+      padding: 75px 0;
+      box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
 
-      .form-name,
-      .form-phone{
-        width: 100%;
-        margin-bottom: 15px;
-        height: 60px;
-        border: 1px solid $green;
-        padding: 0 35px;
-      }
-      .form-name::placeholder,
-      .form-phone::placeholder{
-        color: #9C9C9C;
-        font-size: 14px;
-      }
-      .form-btn{
-        width: 100%;
-        margin-top: 30px;
-        background-color: $green;
-        color: #fff;
-        font-size: 23px;
+      .feedback-title{
+        font-size: 30px;
+        line-height: 28px;
         font-weight: 600;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 25px 0;
+        color: $green;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .feedback-subtitle{
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 500;
+        text-align: center;
+      }
+      .form{
+        width: 430px;
+        margin: 60px auto 0;
+
+        .form-name,
+        .form-phone{
+          width: 100%;
+          margin-bottom: 15px;
+          height: 60px;
+          border: 1px solid $green;
+          padding: 0 35px;
+        }
+        .form-name::placeholder,
+        .form-phone::placeholder{
+          color: #9C9C9C;
+          font-size: 14px;
+        }
+        .form-btn{
+          width: 100%;
+          margin-top: 30px;
+          background-color: $green;
+          color: #fff;
+          font-size: 23px;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 25px 0;
+          border: 1px solid $green;
+          transition: 0.5s ease;
+        }
+        .form-btn:hover{
+          background-color: #fff;
+          color: $green;
+        }
       }
     }
   }
 
+  .footer {
+    display: flex;
+
+    .footer-map img{
+      height: 774px;
+    }
+
+    .footer-contacts {
+      background-color: $dark-grey;
+      color: #fff;
+      width: 100%;
+      padding: 37px 0 0 75px;
+
+      .footer-logo{}
+      .footer-phone{
+        font-size: 30px;
+        line-height: 26px;
+        font-weight:600;
+        margin: 50px 0 25px;
+      }
+      .footer-address{
+        font-size: 25px;
+        line-height: 26px;
+        font-weight:500;
+      }
+      .footer-menu-wrap{
+        display: flex;
+        justify-content: space-between;
+        max-width:350px;
+        margin: 75px 0;
+
+        .footer-menu-item span{
+          display: block;
+          margin-bottom: 25px;
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+      .footer-accounts{
+        display: flex;
+        margin-bottom: 25px;
+
+        .footer-facebook{
+          margin-right: 40px;
+        }
+      }
+    }
+  }
 }
