@@ -1,4 +1,3 @@
-//@import 'swiper/css/bundle';
 @import 'mixins.scss';
 
 @media(max-width: 1200px){
@@ -214,6 +213,12 @@
           line-height: 17px;
         }
       }
+    }
+  }
+  body .offers{
+    .offers-title{
+      font-size: 30px;
+      margin: 140px 0 50px;
     }
   }
 }
@@ -691,6 +696,12 @@
           }
         }
       }
+    }
+  }
+  body .offers{
+    .offers-title{
+      font-size: 25px;
+      margin: 100px 0 40px;
     }
   }
 }
@@ -1182,6 +1193,12 @@
         width: 300px;
         height: 154px;
       }
+    }
+  }
+  body .offers{
+    .offers-title{
+      font-size: 20px;
+      margin: 80px 0 30px;
     }
   }
 }

@@ -293,10 +293,8 @@
                             </div> -->
 
                         </div>
-
                         <!-- pagination -->
                         <div class="swiper-pagination"></div>
-
                         <!-- navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
@@ -535,6 +533,12 @@
                             </div>
                         </div>
                     </div>
+                    <!-- pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
@@ -570,9 +574,9 @@
                 </div>
             </div>
         </section>
-        <section class="offers">
+        <section class="offers container">
             <div class="offers-title">Специальные предложения</div>
-            <div class="offers-wrap container swiper">
+            <div class="offers-wrap swiper">
                 <div class="swiper-wrapper">
                     <div class="offer-item swiper-slide first"></div>
                     <div class="offer-item swiper-slide second"></div>
@@ -581,6 +585,20 @@
                     <div class="offer-item swiper-slide second"></div>
                     <div class="offer-item swiper-slide third"></div>
                 </div>
+                <!-- pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section class="feedback-form container">
+            <div class="feedback-title">Закажите обратный звонок</div>
+            <div class="feedback-subtitle">Оставьте заявку в форме и наш менеджер свяжется с вами</div>
+            <div class="form">
+                <input type="text" class="form-name" placeholder="Ваше имя">
+                <input type="text" class="form-phone" placeholder="Ваш номер телефона">
+                <a href="" class="form-btn">Отправить</a>
             </div>
         </section>
     </main>
@@ -594,6 +612,7 @@
     <!--    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>-->
     <script type="module">
         import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+
         new Swiper('.swiper',{
             // Optional parameters
         speed: 400,
@@ -636,8 +655,6 @@
         },
             })
 
-
-
         new Swiper('.masterClass-slider',{
             // Optional parameters
             speed: 400,
@@ -657,6 +674,48 @@
                     slidesPerView: 2,
                     spaceBetween: 50
                 },
+            },
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })
+
+        new Swiper('.offers-wrap',{
+            // Optional parameters
+            speed: 400,
+            // direction: 'vertical',
+            loop: true,
+            // slidesPerView: 1,
+            spaceBetween: 50,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 50
+                },
+                // when window width is >= 640px
+                530: {
+                    slidesPerView: 2,
+                    spaceBetween: 50
+                },
+                991: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                }
             },
 
             // If we need pagination

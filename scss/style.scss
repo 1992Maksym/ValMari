@@ -5,6 +5,10 @@
 .container:after{
   content: none;
 }
+*input:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
 *a:hover{text-decoration: none}
 
 
@@ -509,6 +513,7 @@ body{
     }
     .masterClass-slider{
       margin: 75px 0 0 0;
+      padding: 0 0 50px;
       .masterClass-item{
         //width: 520px;
         box-shadow: 0px 13px 19px rgb(0 0 0 / 15%);
@@ -628,6 +633,7 @@ body{
       text-align: center;
     }
     .swiper-wrapper{
+      padding: 0 0 50px;
       .offer-item.first{
         background: url(../images/offers/15-20.png);
       }
@@ -640,6 +646,59 @@ body{
       .offer-item{
         width: 380px;
         height: 380px;
+        background-repeat: no-repeat!important;
+        background-size: cover!important;
+      }
+    }
+  }
+
+  .feedback-form{
+    margin: 180px auto;
+    padding: 75px 0;
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+
+    .feedback-title{
+      font-size: 30px;
+      line-height: 28px;
+      font-weight: 600;
+      color: $green;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .feedback-subtitle{
+      font-size: 15px;
+      line-height: 26px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .form{
+      width: 430px;
+      margin: 60px auto 0;
+
+      .form-name,
+      .form-phone{
+        width: 100%;
+        margin-bottom: 15px;
+        height: 60px;
+        border: 1px solid $green;
+        padding: 0 35px;
+      }
+      .form-name::placeholder,
+      .form-phone::placeholder{
+        color: #9C9C9C;
+        font-size: 14px;
+      }
+      .form-btn{
+        width: 100%;
+        margin-top: 30px;
+        background-color: $green;
+        color: #fff;
+        font-size: 23px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0;
       }
     }
   }

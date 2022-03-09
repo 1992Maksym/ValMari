@@ -185,6 +185,11 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
     font-size: 15px;
     line-height: 17px;
   }
+
+  body .offers .offers-title {
+    font-size: 30px;
+    margin: 140px 0 50px;
+  }
 }
 @media (max-width: 991px) {
   body header .mobile-header {
@@ -624,6 +629,11 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   }
   body .masterClass .masterClass-slider .masterClass-item .masterClass-body .masterClass-price-block .masterClass-link {
     height: 80px;
+  }
+
+  body .offers .offers-title {
+    font-size: 25px;
+    margin: 100px 0 40px;
   }
 }
 @media (max-width: 630px) {
@@ -1094,6 +1104,11 @@ body .study .study-wrap-courses .study-course-bottom .timetable-course {
     background: url(../images/models/models-small-phone.png);
     width: 300px;
     height: 154px;
+  }
+
+  body .offers .offers-title {
+    font-size: 20px;
+    margin: 80px 0 30px;
   }
 }
 @media (max-width: 430px) {
