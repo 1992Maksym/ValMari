@@ -26,9 +26,6 @@
   body .courses-main-block .courses-block .courses-title {
     font-size: 28px;
   }
-  body .courses-main-block .courses-block .courses-slider-container .courses-item {
-    max-width: 300px;
-  }
   body .courses-main-block .courses-block .courses-slider-container .courses-item .course-item-wrap .course-prescription {
     font-size: 15px;
   }
@@ -190,6 +187,42 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
     font-size: 30px;
     margin: 140px 0 50px;
   }
+
+  body .footer .footer-map img {
+    height: 600px;
+    width: 500px;
+  }
+  body .footer .footer-contacts {
+    padding: 30px 0 0 60px;
+  }
+  body .footer .footer-contacts .footer-logo svg {
+    width: 77px;
+    height: 77px;
+  }
+  body .footer .footer-contacts .footer-phone {
+    font-size: 25px;
+    margin: 33px 0 18px;
+  }
+  body .footer .footer-contacts .footer-address {
+    font-size: 20px;
+  }
+  body .footer .footer-contacts .footer-menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 35px 0;
+  }
+  body .footer .footer-contacts .footer-menu-wrap .footer-menu-item span {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  body .footer .footer-contacts .footer-accounts {
+    display: flex;
+    margin-bottom: 45px;
+  }
+  body .footer .footer-contacts .footer-accounts .footer-facebook {
+    margin-right: 30px;
+  }
 }
 @media (max-width: 991px) {
   body header .mobile-header {
@@ -301,9 +334,6 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   }
   body .courses-main-block .courses-block .courses-slider-container {
     padding: 0;
-  }
-  body .courses-main-block .courses-block .courses-slider-container .courses-item {
-    max-width: 200px;
   }
   body .courses-main-block .courses-block .courses-slider-container .courses-item .course-item-wrap .course-logo svg {
     width: 24px;
@@ -481,6 +511,36 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   body .we-are .we-are-wrap .we-are-item .we-are-img svg {
     height: 120px;
     width: 200px;
+  }
+
+  body .footer .footer-map img {
+    height: 590px;
+    width: 356px;
+  }
+  body .footer .footer-contacts {
+    padding: 40px 0 0 32px;
+  }
+  body .footer .footer-contacts .footer-logo svg {
+    width: 77px;
+    height: 77px;
+  }
+  body .footer .footer-contacts .footer-phone {
+    font-size: 25px;
+    margin: 33px 0 18px;
+  }
+  body .footer .footer-contacts .footer-address {
+    font-size: 20px;
+  }
+  body .footer .footer-contacts .footer-menu-wrap {
+    max-width: 300px;
+    margin: 25px 0 45px;
+  }
+  body .footer .footer-contacts .footer-accounts {
+    display: flex;
+    margin-bottom: 45px;
+  }
+  body .footer .footer-contacts .footer-accounts .footer-facebook {
+    margin-right: 30px;
   }
 }
 @media (max-width: 768px) {
@@ -673,6 +733,58 @@ body .feedback-form .feedback-wrap-form .form .form-phone::placeholder {
     margin-top: 23px;
     font-size: 15px;
     padding: 18px 0;
+  }
+
+  body .footer {
+    flex-direction: column-reverse;
+  }
+  body .footer .footer-map img {
+    height: 400px;
+    width: 100%;
+  }
+  body .footer .footer-contacts {
+    padding: 30px 0;
+  }
+  body .footer .footer-contacts .footer-logo {
+    width: max-content;
+    margin: 0 auto;
+  }
+  body .footer .footer-contacts .footer-logo svg {
+    width: 77px;
+    height: 77px;
+  }
+  body .footer .footer-contacts .footer-phone {
+    font-size: 20px;
+    margin: 33px 0 10px;
+    text-align: center;
+  }
+  body .footer .footer-contacts .footer-address {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+  body .footer .footer-contacts .footer-menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 35px auto;
+  }
+  body .footer .footer-contacts .footer-menu-wrap .footer-menu-item span {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  body .footer .footer-contacts .footer-accounts {
+    display: flex;
+    margin-bottom: 45px;
+    justify-content: center;
+  }
+  body .footer .footer-contacts .footer-accounts .footer-facebook a svg,
+body .footer .footer-contacts .footer-accounts .footer-instagram a svg {
+    width: 25px;
+    height: 25px;
+  }
+  body .footer .footer-contacts .footer-political {
+    text-align: center;
   }
 }
 @media (max-width: 630px) {
@@ -1026,9 +1138,6 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   }
   body .courses-main-block .courses-block .courses-slider-container {
     padding: 0;
-  }
-  body .courses-main-block .courses-block .courses-slider-container .courses-item {
-    max-width: 200px;
   }
   body .courses-main-block .courses-block .courses-slider-container .courses-item .course-item-wrap .course-logo svg {
     width: 24px;

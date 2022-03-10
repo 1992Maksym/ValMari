@@ -372,10 +372,15 @@ body .bout-us .about-us-description-wrap .about-us-main-description .about-us-ma
   margin: 30px 0;
 }
 body .bout-us .about-us-description-wrap .about-us-main-more {
+  display: flex;
+  justify-content: flex-end;
   font-size: 24px;
   line-height: 22px;
   font-weight: 500;
   color: #55A630;
+}
+body .bout-us .about-us-description-wrap .about-us-main-more .about-us-arrow {
+  margin-left: 15px;
 }
 body .study .study-title {
   font-size: 35px;

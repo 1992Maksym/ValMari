@@ -31,7 +31,7 @@
       }
       .courses-slider-container{
         .courses-item{
-          max-width: 300px;
+          //max-width: 300px;
 
           .course-item-wrap .course-prescription{font-size: 15px}
           .course-item-wrap .course-description{font-size: 25px}
@@ -221,6 +221,48 @@
       margin: 140px 0 50px;
     }
   }
+  body .footer {
+
+    .footer-map img{
+      height: 600px;
+      width: 500px;
+    }
+
+    .footer-contacts {
+      padding: 30px 0 0 60px;
+
+      .footer-logo svg{
+        width: 77px;
+        height: 77px;
+      }
+      .footer-phone{
+        font-size: 25px;
+        margin: 33px 0 18px;
+      }
+      .footer-address{
+        font-size: 20px;
+      }
+      .footer-menu-wrap{
+        display: flex;
+        justify-content: space-between;
+        max-width:300px;
+        margin: 35px 0;
+
+        .footer-menu-item span{
+          margin-bottom: 15px;
+          font-size: 15px;
+        }
+      }
+      .footer-accounts{
+        display: flex;
+        margin-bottom: 45px;
+
+        .footer-facebook{
+          margin-right: 30px;
+        }
+      }
+    }
+  }
 }
 
 @media(max-width:991px){
@@ -326,7 +368,7 @@
       .courses-slider-container{
         padding: 0;
         .courses-item{
-          max-width: 200px;
+          //max-width: 200px;
           .course-item-wrap .course-logo svg{
             width: 24px;
             height: 16px;
@@ -522,6 +564,41 @@
             height: 120px;
             width: 200px;
           }
+        }
+      }
+    }
+  }
+  body .footer {
+
+    .footer-map img{
+      height: 590px;
+      width: 356px;
+    }
+
+    .footer-contacts {
+      padding: 40px 0 0 32px;
+
+      .footer-logo svg{
+        width: 77px;
+        height: 77px;
+      }
+      .footer-phone{
+        font-size: 25px;
+        margin: 33px 0 18px;
+      }
+      .footer-address{
+        font-size: 20px;
+      }
+      .footer-menu-wrap{
+        max-width:300px;
+        margin: 25px 0 45px;
+      }
+      .footer-accounts{
+        display: flex;
+        margin-bottom: 45px;
+
+        .footer-facebook{
+          margin-right: 30px;
         }
       }
     }
@@ -742,6 +819,61 @@
           font-size: 15px;
           padding: 18px 0;
         }
+      }
+    }
+  }
+  body .footer {
+    flex-direction: column-reverse;
+    .footer-map img{
+      height: 400px;
+      width: 100%;
+    }
+
+    .footer-contacts {
+      padding: 30px 0;
+
+      .footer-logo{
+        width: max-content;
+        margin: 0 auto
+      }
+      .footer-logo svg{
+        width: 77px;
+        height: 77px;
+      }
+      .footer-phone{
+        font-size: 20px;
+        margin: 33px 0 10px;
+        text-align: center;
+      }
+      .footer-address{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .footer-menu-wrap{
+        display: flex;
+        justify-content: space-between;
+        max-width:300px;
+        margin: 35px auto;
+
+        .footer-menu-item span{
+          margin-bottom: 15px;
+          font-size: 15px;
+        }
+      }
+      .footer-accounts{
+        display: flex;
+        margin-bottom: 45px;
+        justify-content: center;
+
+        .footer-facebook a svg,
+        .footer-instagram a svg{
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .footer-political{
+        text-align: center;
       }
     }
   }
@@ -1104,7 +1236,7 @@
       .courses-slider-container{
         padding: 0;
         .courses-item{
-          max-width: 200px;
+          //max-width: 200px;
           .course-item-wrap .course-logo svg{
             width: 24px;
             height: 16px;

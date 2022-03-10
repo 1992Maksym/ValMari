@@ -342,8 +342,14 @@ body{
 
        }
        .about-us-main-more{
+         display: flex;
+         justify-content: flex-end;
         @include text-about-us;
          color: $green;
+
+         .about-us-arrow{
+           margin-left: 15px;
+         }
        }
      }
    }
