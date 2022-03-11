@@ -2,12 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bd33cca-d7bd-4c2e-ae47-2e3da6169981" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/wow.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/css/libs/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.min.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/coffeescripts/helpers/SpecHelper.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/coffeescripts/wow-spec.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/fixtures/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/fixtures/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/helpers/SpecHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/libs/jasmine-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/libs/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/wow-spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/src/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/src/WOW.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +65,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Miwikus\Desktop\ValMari" />
+      <recent name="C:\Users\Miwikus\Desktop\ValMari\dist" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +107,8 @@
       <workItem from="1646730080169" duration="1045000" />
       <workItem from="1646764970426" duration="2261000" />
       <workItem from="1646823572090" duration="9937000" />
-      <workItem from="1646855373472" duration="18521000" />
+      <workItem from="1646855373472" duration="19115000" />
+      <workItem from="1646987276548" duration="9849000" />
     </task>
     <servers />
   </component>
@@ -77,6 +120,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1645429436470" />
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1646998782384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1646998782384" />
     <state x="352" y="141" key="EditFileWatcherDialog" timestamp="1645437474915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
