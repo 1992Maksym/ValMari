@@ -1,3 +1,4 @@
+@import '~animate.css';
 @import '../node_modules/animate.css/animate.css';
 .container:before,
 .container:after {

@@ -1,4 +1,7 @@
-
+import BannerLogo from '../images/banner/banner_fon.jpg';
+import * as Wow from 'wow.js';
+import '../scss/style.scss'
+import '../node_modules/wow.js/dist/wow.min'
 const wow = new WOW;
 wow.init();
 
