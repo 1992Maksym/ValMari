@@ -1,3 +1,4 @@
+@import '../fonts/fonts.css';
 @import '../node_modules/animate.css/animate.css';
 .container:before,
 .container:after {
@@ -94,6 +95,7 @@ body .main-banner .banner-wrap .banner-text .prescription {
   font-weight: 500;
 }
 body .main-banner .banner-wrap .banner-text .main-text {
+  font-family: "Montserrat-Bold";
   font-size: 65px;
   font-weight: 700;
   max-width: 500px;

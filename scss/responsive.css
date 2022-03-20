@@ -1,3 +1,4 @@
+@import '../fonts/fonts.css';
 @media (max-width: 1200px) {
   body .main-banner .banner-wrap {
     padding: 40px 0 97px 0;

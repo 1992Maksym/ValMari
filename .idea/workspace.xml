@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:new_changes" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0bd33cca-d7bd-4c2e-ae47-2e3da6169981" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +80,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Miwikus\Desktop\ValMari" />
+      <recent name="C:\Users\Miwikus\Desktop\ValMari\dist" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,18 +122,58 @@
       <workItem from="1646730080169" duration="1045000" />
       <workItem from="1646764970426" duration="2261000" />
       <workItem from="1646823572090" duration="9937000" />
-      <workItem from="1646855373472" duration="18521000" />
+      <workItem from="1646855373472" duration="19115000" />
+      <workItem from="1646987276548" duration="20870000" />
+      <workItem from="1647076528800" duration="3732000" />
+      <workItem from="1647242387321" duration="3069000" />
+      <workItem from="1647454616592" duration="2376000" />
+      <workItem from="1647496785471" duration="11246000" />
+      <workItem from="1647707199900" duration="2419000" />
+      <workItem from="1647715807952" duration="1937000" />
+      <workItem from="1647790685593" duration="3360000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="new_changes" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add styles" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645429436470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1645429436470" />
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1646998782384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1646998782384" />
     <state x="352" y="141" key="EditFileWatcherDialog" timestamp="1645437474915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
