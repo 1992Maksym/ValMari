@@ -190,7 +190,7 @@ body{
         margin-bottom: 75px;
       }
       .courses-slider-container{
-        padding: 50px 0;
+        padding: 50px 15px;
 
         .courses-item{
           background-color: #fff;
@@ -293,6 +293,13 @@ body{
           }
 
         }
+        .swiper-button-prev:after,
+        .swiper-button-next:after{
+          font-size: 25px;
+          color: $dark-grey;
+        }
+        .swiper-button-prev{left: -5px;}
+        .swiper-button-next{right: -5px;}
       }
     }
   }
