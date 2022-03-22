@@ -1,0 +1,149 @@
+[33mcommit 6721fe56d7ca716cf8a7a8001f16bc5f864b8fe3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mangularProgect[m[33m)[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Sun Mar 20 19:52:21 2022 +0200
+
+    add Raleway font
+
+[33mcommit d4e44b1e5ddf22ba6c560ab0fde5b315dff1751b[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Sun Mar 20 19:12:38 2022 +0200
+
+    add folder with fonts
+
+[33mcommit 732f8321fab46f4dd40309a6568244ef956b4d45[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Sat Mar 19 21:03:17 2022 +0200
+
+    add gitignore file
+
+[33mcommit a31e17e074a395db3e7a6f62b89e59191cf7512f[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Sat Mar 19 20:32:07 2022 +0200
+
+    delete dist and node_modules folders, delete node install file
+
+[33mcommit cc57193641a97dea8f2c9932b10ed88a73dfa5c7[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Fri Mar 11 19:59:20 2022 +0200
+
+    add html plugin in webpack
+
+[33mcommit 19567a72619906c19a2031fc0e98439ae2c90f0d[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Fri Mar 11 15:31:28 2022 +0200
+
+    init webpack and create files bundle.js and webpack.config.js
+
+[33mcommit fa9911802a8019932a7858e3ac7ab57d30dea364[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Thu Mar 10 18:08:49 2022 +0200
+
+    add some animate
+
+[33mcommit 734f715b422b5dfa195a490a14cce18751603e0b[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Thu Mar 10 13:35:24 2022 +0200
+
+    finish footer responsive
+
+[33mcommit 4aa7d9344e1766eaa8cde9f8f0f3b1841c5d6bef[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Thu Mar 10 00:16:52 2022 +0200
+
+    create footer for desktop
+
+[33mcommit 97c2e6da8da14aaf6aec9545bf5b8986d7e6dc24[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Wed Mar 9 16:01:07 2022 +0200
+
+    add feedback form on page for desktop
+
+[33mcommit 9333498759c04c5359e7589c58c23bc73e42d326[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Tue Mar 8 21:09:26 2022 +0200
+
+    add block offers for desktop
+
+[33mcommit 29a171f2ac08bf359d46b51cf75c662fba429fa8[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Tue Mar 8 00:03:56 2022 +0200
+
+    add block we-are with responsive
+
+[33mcommit 8478e1eb30b355696028affad345852a9a66bebf[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Mon Mar 7 15:16:44 2022 +0200
+
+    add block-slider masterClass with responsive
+
+[33mcommit 91dfbd686bdb680b81aa44872b141ab092b49bcf[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Sun Mar 6 19:44:35 2022 +0200
+
+    block models responsive
+
+[33mcommit 6794b5a0087ff52e777c2375038a8e9abd83fb8a[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Sun Mar 6 18:39:19 2022 +0200
+
+    add block set of models desktop
+
+[33mcommit d1268bf0620dfeff66a74b9af537132424c449f9[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Fri Mar 4 23:35:48 2022 +0200
+
+    add block study with responsive
+
+[33mcommit 7b736a43ec62c9f21c0aa8a7d3d052a6c252f62d[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Thu Mar 3 14:42:20 2022 +0200
+
+    create block about us with responsive
+
+[33mcommit 07c310b17328601dc2eabc5a4b4065c15373d979[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Wed Feb 23 13:37:20 2022 +0200
+
+    style: stylization cards of courses block.
+
+[33mcommit 8affbff51efa58a5df52d272aac3f591100a3e30[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Wed Feb 23 09:45:20 2022 +0200
+
+    refactor: changed card of course.
+
+[33mcommit bfde47be07e78e963fd174790042c2c5f7b64939[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Tue Feb 22 18:03:34 2022 +0200
+
+    background image size on courses block
+
+[33mcommit f03f8895b4d7b096add4e45ae44fec3bfae4ea5e[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Tue Feb 22 17:26:34 2022 +0200
+
+    Connect swiper slider
+
+[33mcommit 4336f6255abf40e2444652aa00f9d649cacb4b11[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Tue Feb 22 16:55:30 2022 +0200
+
+    Add block with courses for desktop
+
+[33mcommit 673b3cac3b840d22067f3cdfba95577915217778[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Tue Feb 22 11:01:17 2022 +0200
+
+    Responsive banner. Init swiper
+
+[33mcommit 1a3fd040029602d440af043b3e15eb9ed95ca9bb[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Mon Feb 21 22:57:33 2022 +0200
+
+    Banner desktop
+
+[33mcommit bff171148c8bb4a5768e03143486a4a66ebb1494[m
+Author: Maksym Salov <maksimsalov8@gmail.com>
+Date:   Mon Feb 21 15:55:18 2022 +0200
+
+    Create project. Header desktop.
