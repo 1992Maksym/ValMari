@@ -8,6 +8,7 @@ new Swiper('.swiper',{
     loop: true,
     // slidesPerView: 1,
     spaceBetween: 50,
+
     // Responsive breakpoints
     breakpoints: {
         // when window width is >= 320px
@@ -29,12 +30,15 @@ new Swiper('.swiper',{
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 
     // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+        // clickable dots
+
     },
 
     // And if we need scrollbar
@@ -50,6 +54,8 @@ new Swiper('.masterClass-slider',{
     loop: true,
     // slidesPerView: 1,
     spaceBetween: 50,
+    // clickable dots
+    paginationClickable: true,
     // Responsive breakpoints
     breakpoints: {
         // when window width is >= 320px
@@ -67,6 +73,7 @@ new Swiper('.masterClass-slider',{
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 
     // Navigation arrows
@@ -88,6 +95,8 @@ new Swiper('.offers-wrap',{
     loop: true,
     // slidesPerView: 1,
     spaceBetween: 50,
+    // clickable dots
+    paginationClickable: true,
     // Responsive breakpoints
     breakpoints: {
         // when window width is >= 320px
@@ -109,6 +118,7 @@ new Swiper('.offers-wrap',{
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 
     // Navigation arrows
