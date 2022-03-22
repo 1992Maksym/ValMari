@@ -12,9 +12,11 @@
 *a:hover{text-decoration: none}
 
 
+
 body{
   box-sizing: border-box;
   color: $dark-grey;
+  font-family: $main-font;
 
 
   header{
@@ -100,7 +102,7 @@ body{
           font-weight: 500;
         }
         .main-text{
-          font-family: $MontserratBold;
+          font-family: $main-font;
           font-size: 65px;
           font-weight: 700;
           max-width: 500px;
@@ -190,7 +192,7 @@ body{
         margin-bottom: 75px;
       }
       .courses-slider-container{
-        padding: 50px 15px;
+        padding: 50px 25px;
 
         .courses-item{
           background-color: #fff;
@@ -528,7 +530,7 @@ body{
     }
     .masterClass-slider{
       margin: 75px 0 0 0;
-      padding: 0 0 50px;
+      padding: 0 30px 50px;
       .masterClass-item{
         //width: 520px;
         box-shadow: 0px 13px 19px rgb(0 0 0 / 15%);
@@ -584,6 +586,13 @@ body{
           }
         }
       }
+      .swiper-button-prev:after,
+      .swiper-button-next:after{
+        font-size: 25px;
+        color: $dark-grey;
+      }
+      .swiper-button-prev{left: -5px;}
+      .swiper-button-next{right: -5px;}
     }
   }
 
@@ -647,24 +656,36 @@ body{
       margin: 160px 0 75px;
       text-align: center;
     }
-    .swiper-wrapper{
-      padding: 0 0 50px;
-      .offer-item.first{
-        background: url(../images/offers/15-20.png);
+    .offers-wrap{
+      padding: 0 25px;
+
+      .swiper-wrapper{
+        padding: 0 0 50px;
+        .offer-item.first{
+          background: url(../images/offers/15-20.png);
+        }
+        .offer-item.second{
+          background: url(../images/offers/10-15.png);
+        }
+        .offer-item.third{
+          background: url(../images/offers/25.png);
+        }
+        .offer-item{
+          width: 380px;
+          height: 380px;
+          background-repeat: no-repeat!important;
+          background-size: cover!important;
+        }
       }
-      .offer-item.second{
-        background: url(../images/offers/10-15.png);
+      .swiper-button-prev:after,
+      .swiper-button-next:after{
+        font-size: 25px;
+        color: $dark-grey;
       }
-      .offer-item.third{
-        background: url(../images/offers/25.png);
-      }
-      .offer-item{
-        width: 380px;
-        height: 380px;
-        background-repeat: no-repeat!important;
-        background-size: cover!important;
-      }
+      .swiper-button-prev{left: -7px;}
+      .swiper-button-next{right: -7px;}
     }
+
   }
 
   .feedback-form{
