@@ -21,8 +21,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bd33cca-d7bd-4c2e-ae47-2e3da6169981" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/add_styles.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/css/libs/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/dist/wow.min.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/coffeescripts/helpers/SpecHelper.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/coffeescripts/wow-spec.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/fixtures/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/fixtures/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/helpers/SpecHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/libs/jasmine-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/libs/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/spec/javascripts/wow-spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/src/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wow/src/WOW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -95,6 +128,7 @@
       <workItem from="1647707199900" duration="2419000" />
       <workItem from="1647715807952" duration="1937000" />
       <workItem from="1647790685593" duration="3360000" />
+      <workItem from="1648390894365" duration="14995000" />
     </task>
     <task id="LOCAL-00001" summary="add folder with fonts">
       <created>1647940537651</created>
@@ -125,35 +159,5 @@
     <MESSAGE value="add styles" />
     <MESSAGE value="add folder with fonts" />
     <option name="LAST_COMMIT_MESSAGE" value="add folder with fonts" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645429436470">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1645429436470" />
-    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1646998782384">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1646998782384" />
-    <state x="222" y="0" key="CommitChangelistDialog2" timestamp="1647940534127">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="222" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1647940534127" />
-    <state x="352" y="141" key="EditFileWatcherDialog" timestamp="1645437474915">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="352" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1645437474915" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1645441406157">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1645441406157" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1647940683232">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1647940683232" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1645475327674">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1645475327674" />
   </component>
 </project>

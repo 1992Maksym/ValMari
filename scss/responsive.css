@@ -226,6 +226,86 @@ body .study .study-wrap-courses .study-course-bottom .discount-course {
   }
 }
 @media (max-width: 991px) {
+  body header .burger-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(66, 66, 66, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+  body header .burger-menu .burger-wrap {
+    width: 70%;
+    background-color: #ffffff;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 118px;
+  }
+  body header .burger-menu .burger-wrap .burger-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  body header .burger-menu .burger-wrap .burger-header .burger-tel {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 40px;
+  }
+  body header .burger-menu .burger-wrap .burger-header .burger-tel:before {
+    content: "";
+    background: url("../images/burger-menu/tel.svg");
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 23px;
+    height: 23px;
+  }
+  body header .burger-menu .burger-wrap .lang-description {
+    font-size: 12px;
+    color: #4340B4;
+  }
+  body header .burger-menu .burger-wrap .lang {
+    width: 41px;
+    height: 41px;
+    background: url("../images/burger-menu/russia.png");
+    position: relative;
+  }
+  body header .burger-menu .burger-wrap .lang:after {
+    content: "";
+    position: absolute;
+    background: url("../images/burger-menu/arrow.svg");
+    top: 17px;
+    left: 50px;
+    width: 11px;
+    height: 6px;
+  }
+  body header .burger-menu .burger-wrap .burger-navigation .burger-navigation-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  body header .burger-menu .burger-wrap .burger-navigation .burger-navigation-list .burger-navigation-item {
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  body header .burger-menu .burger-wrap .burger-navigation .burger-navigation-list .burger-navigation-item a:hover {
+    color: #55A630;
+  }
+  body header .burger-menu .burger-wrap .burger-navigation .burger-navigation-list .burger-navigation-item a {
+    color: #424242;
+  }
+  body header .burger-menu .burger-wrap .burger-footer {
+    margin: 60px 0 0 0;
+    display: flex;
+  }
+  body header .burger-menu .burger-wrap .burger-footer .burger-instagram {
+    margin-left: 30px;
+  }
   body header .mobile-header {
     display: flex;
     justify-content: space-between;
@@ -332,9 +412,6 @@ body .main-banner .banner-wrap .banner-buttons .learn-more:hover {
   }
   body .courses-main-block .courses-block .courses-title {
     font-size: 28px;
-  }
-  body .courses-main-block .courses-block .courses-slider-container {
-    padding: 0;
   }
   body .courses-main-block .courses-block .courses-slider-container .courses-item .course-item-wrap .course-logo svg {
     width: 24px;

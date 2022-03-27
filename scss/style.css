@@ -18,6 +18,10 @@ body {
   box-sizing: border-box;
   color: #424242;
   font-family: "Montserrat";
+  position: relative;
+}
+body header .burger-menu {
+  display: none;
 }
 body header .mobile-header {
   display: none;
@@ -205,7 +209,7 @@ body .courses-main-block .courses-block .courses-title {
   margin-bottom: 75px;
 }
 body .courses-main-block .courses-block .courses-slider-container {
-  padding: 50px 25px;
+  padding: 0 25px 50px;
 }
 body .courses-main-block .courses-block .courses-slider-container .courses-item {
   background-color: #fff;

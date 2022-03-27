@@ -1,6 +1,7 @@
 @import 'mixins.scss';
 @import '../node_modules/animate.css/animate.css';
 
+
 .container:before,
 .container:after{
   content: none;
@@ -17,9 +18,12 @@ body{
   box-sizing: border-box;
   color: $dark-grey;
   font-family: $main-font;
+  position: relative;
 
 
   header{
+    .burger-menu{display: none}
+
     .mobile-header{display: none}
 
     .header-top{
@@ -192,7 +196,7 @@ body{
         margin-bottom: 75px;
       }
       .courses-slider-container{
-        padding: 50px 25px;
+        padding: 0 25px 50px;
 
         .courses-item{
           background-color: #fff;

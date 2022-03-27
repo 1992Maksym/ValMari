@@ -1,4 +1,4 @@
-var wow = new WOW;
+const wow = new WOW;
 wow.init();
 
 new Swiper('.swiper',{
@@ -132,3 +132,15 @@ new Swiper('.offers-wrap',{
         el: '.swiper-scrollbar',
     },
 })
+
+
+let burgerMenu = document.querySelector('.burger-menu');
+let burger = document.querySelector('.burger');
+burger.addEventListener('click',function(){
+    burgerMenu.style.display = 'block';
+    document.querySelector('body').classList.add('wrap');
+})
+document.addEventListener( 'click', function(e) {
+    if(e.target !== e.target.closest('.burger-menu').querySelector('a')) burgerMenu.style.display = 'none';
+    // else if(e.target == e.target.closest('.burger-menu').querySelector('.burger-close')) burgerMenu.style.display = 'none';
+});
